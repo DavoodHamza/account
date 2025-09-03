@@ -1,0 +1,158 @@
+@use "../../config/variables.scss" as vars;
+.salesInvoice-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(156, 156, 156);
+  padding: 10px 10px;
+  background-color: rgb(247, 247, 247);
+  font-family: vars.$Poppins-Medium;
+  font-size: 22px;
+}
+.heading {
+  flex: 1;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.salesInvoice-SubHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(156, 156, 156);
+  padding: 10px 10px;
+  background-color: rgb(247, 247, 247);
+  font-family: vars.$Poppins-Medium;
+  font-size: 17px;
+}
+.salesInvoice-item {
+  border: 1px solid rgb(217, 217, 217);
+}
+.salesInvoice-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.items-head {
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.items-value {
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 300px;
+  padding: 1px;
+  font-family: vars.$Poppins-Regular;
+  font-size: 12px;
+}
+.paid-tag {
+  position: absolute;
+  padding: 0.1em 2em;
+  z-index: 99;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 14px;
+  pointer-events: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+  background-color: rgb(200, 230, 201);
+  color: rgb(27, 94, 32);
+  top: 0px;
+  right: 0px;
+  transform: translateY(-100%) rotate(90deg) translateX(70.7107%) rotate(-45deg);
+  transform-origin: right bottom;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.items-value-footer {
+  font-family: vars.$Poppins-Medium;
+  font-size: 13px;
+}
+
+//////////
+.card_box {
+  position: relative;
+}
+
+.card_box span {
+  position: absolute;
+  overflow: hidden;
+  width: 10%;
+  height: 22%;
+  top: -12px;
+  right: -2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paidClass::before {
+  content: "paid";
+  position: absolute;
+  width: 200%;
+  height: 35px;
+  background-color: vars.$green;
+  transform: rotate(45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+.unPaidClass::before {
+  content: "unpaid";
+  position: absolute;
+  width: 200%;
+  height: 35px;
+  background-color: "red";
+  transform: rotate(45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+.partPaidClass::before {
+  content: "paid paid";
+  position: absolute;
+  width: 200%;
+  height: 35px;
+  background-color: "orange";
+  transform: rotate(45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+.card_box span::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  z-index: -1;
+  box-shadow: 140px -140px #cc3f47;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}

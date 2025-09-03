@@ -1,0 +1,114 @@
+@use "../../config/variables.scss" as vars;
+
+.profile-tab-container {
+  justify-content: center;
+}
+.profile-tags {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-tab-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .profile-tab-title-text {
+    margin-left: 6px;
+  }
+}
+.profile-business-radioLableText{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: vars.$Poppins-Regular;
+  color: vars.$fullblack;
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    font-size: 11px;
+  }
+}
+.profile-subscription-rocket-image{
+  height:30vh ;
+}
+.profile-tab-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .profile-tab-title-text {
+    margin-left: 6px;
+    font-family: vars.$Poppins-Medium;
+  }
+}
+.endmodel-txt1{
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+  margin-top: 5px;
+  color: vars.$GreyGreen;
+}
+// subscription-----------------
+.subscription-item-container{
+  margin-top: 10px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+}
+.profile-subscription-Txt2 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 18px;
+}
+.security-Txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 18px;
+}
+
+// ----------- Profile
+.profile-picture-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-edit {
+  position: absolute;
+  bottom: -12px;
+  background-color: vars.$primary;
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 90%;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid rgb(217, 217, 217);
+}
+
+.profile-text-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-txt1 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-txt2 {
+  font-family: vars.$Poppins-Medium;
+}

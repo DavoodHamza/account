@@ -1,0 +1,19 @@
+@use "../../config/variables.scss" as vars;
+.Privacy-Policy{
+    color: vars.$fullblack;
+    font-family: vars.$Poppins-Bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+.Privacy-Policy-desc{
+    font-family: vars.$Poppins-Regular;
+    color: vars.$GreyGreen;
+    font-size: 16px;
+    margin: 20px 0px 20px 0px;
+}
+.Privacy-Policy-taitil{
+    font-family: vars.$Poppins-Medium;
+    color: vars.$fullblack;
+    font-size: 23px;
+}

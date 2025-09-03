@@ -1,0 +1,26 @@
+@use "../../config/variables.scss" as vars;
+
+.addNewsTable_img {
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.addNews_box1 {
+  display: flex;
+  justify-content: space-between;
+}
+.addNews_txt1 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 20px;
+}
+.blogForm_box1 {
+  height: 150px;
+  width: 250px;
+}
+.blogForm_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

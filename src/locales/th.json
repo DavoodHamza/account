@@ -1,0 +1,38 @@
+{
+    "dashboard": {
+        "title": {
+            "sale_progress": "ความคืบหน้าการขาย",
+            "total_customer": "ลูกค้าทั้งหมด",
+            "total_profit": "กำไรรวม",
+            "sale_preview": "พรีวิวการขาย",
+            "purchase_preview": "ซื้อดูตัวอย่าง",
+            "latest_order": "คำสั่งล่าสุด"
+        }
+    },
+    "sidebar": {
+        "title": {
+            "dashboard": "แผงควบคุม",
+            "productService": "สินค้า/บริการ",
+            "stock": "คลังสินค้า",
+            "nonstock": "ไม่สต๊อก",
+            "service": "บริการ",
+            "sale": "ฝ่ายขาย",
+            "invoice": "ใบแจ้งหนี้",
+            "cnote": "ใบลดหนี้",
+            "purchase": "ซื้อ",
+            "dnote": "ใบเพิ่มหนี้",
+            "contact": "ผู้ติดต่อ",
+            "customer": "ลูกค้า",
+            "supplier": "ซัพพลายเออร์",
+            "document": "เอกสาร",
+            "journal": "วารสาร",
+            "cash":"เงินสด",
+            "bank":"ธนาคาร",
+            "report":"รายงาน",
+            "ledger"  : "บัญชีแยกประเภท",
+            "myledger": "บัญชีแยกประเภทของฉัน",
+            "defaultledger": "บัญชีแยกประเภทเริ่มต้น",
+            "merchant": "พ่อค้า"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@use "../../config/variables.scss" as vars;
+
+.denomination {
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .denomination_tr {
+    background-color: #dddddd;
+  }
+}
+
+.denominationTableHead {
+  display: flex;
+  padding-left: 10px;
+  margin: 10px;
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 15px;
+}
+.deatailText {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.tableHeadingDenominations {
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

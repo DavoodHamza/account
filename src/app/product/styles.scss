@@ -1,0 +1,13 @@
+@use "../../config/variables.scss" as vars;
+
+.productView-Box1 {
+  width: 100%;
+  height: 184px;
+}
+.productAdd-Txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 16px;
+}

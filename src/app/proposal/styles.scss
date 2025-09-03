@@ -1,0 +1,8 @@
+@use "../../config/variables.scss" as vars;
+.pageHdrTxt{
+    font-size: 17px;
+    font-weight: 600;
+    @media screen and (max-width: 540px) {
+        display: none;
+      }
+}

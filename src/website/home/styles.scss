@@ -1,0 +1,499 @@
+@use "../../config/variables.scss" as vars;
+.website-HomeBox1 {
+  background-image: url(../../assets//images/landingbgimg1-1.webp);
+  padding-bottom: 30px;
+  min-height: 100vh;
+  background-size: cover;
+  // background-position: center;
+  display: flex;
+  // align-items: center;
+}
+.website-HomeBox2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.blankdiv {
+  @media screen and (max-width: 576px) {
+    height: 0px;
+  }
+  @media screen and (max-width: 768px) {
+    height: 5px;
+  }
+  @media screen and (max-width: 992px) {
+    height: 50px;
+  }
+
+  @media screen and (min-width: 992px) {
+    height: 80px;
+  }
+}
+.website-HomeBoxBtn1 {
+  width: 100%;
+  background-color: vars.$green;
+  border-radius: 7px;
+  padding: 7px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  border: 2px solid vars.$green;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.website-HomeBoxBtn2 {
+  width: 100%;
+  border-radius: 7px;
+  padding: 7px;
+  background-color: transparent;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  border: 2px solid rgb(177, 177, 177);
+  margin-bottom: 10px;
+}
+.website-HomeBoxtxt1 {
+  font-size: 30px;
+  font-family: vars.$Poppins-Bold;
+  line-height: 50px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 25px;
+    line-height: 50px;
+  }
+}
+
+.website-HomeBoxline {
+  // height: 2px;
+  margin-bottom: 20px;
+  border: 1px dashed rgb(226, 226, 226);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    margin-top: 40px;
+  }
+}
+.website-HomeBoxItem {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: vars.$green;
+}
+.website-HomeBoxImg {
+  width: 100%;
+}
+.website-HomeRow {
+  display: flex;
+  align-items: center;
+}
+.website-HomeRowtxt {
+  font-family: vars.$Poppins-Medium;
+}
+.website-HomeRowIcon {
+  color: vars.$green;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.website-Homelogo {
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+.website-screens-1 {
+  padding-top: 73px;
+}
+////////////features///======>>>
+.features-Box1 {
+  width: 100%;
+}
+.features-heading1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: vars.$Poppins-Medium;
+  @media screen and (max-width: 576px) {
+    font-size: 24px;
+  }
+}
+
+.features-Box5 {
+  border: solid 1px rgb(237, 237, 237);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 100%;
+  @media screen and (min-width: 576px) and (max-width: 768) {
+    font-size: 11px;
+  }
+}
+.FeaturesCard-text {
+  font-size: 14px;
+  padding-top: 10px;
+  font-family: vars.$Poppins-Regular;
+  color: vars.$fullblack;
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    font-size: 11px;
+  }
+}
+//////TaxgoSystem////=====>>>>>>>>>>>>>>>>
+.TaxgoSystem-head1 {
+  width: 100%;
+  height: 20%;
+  color: #18a762;
+  font-weight: 800;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 576px) {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+.TaxgoSystem-text1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-family: vars.$Poppins-Medium;
+}
+.FeaturesCard-heading {
+  color: #18a762;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 20px;
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+.TaxgoSystem-coverDiv {
+  padding: 80px 130px 120px 130px;
+  @media (max-width: 1400px) {
+    padding: 80px 100px 120px 100px;
+  }
+  @media (max-width: 1300px) {
+    padding: 80px 60px 120px 60px;
+  }
+  @media (max-width: 1200px) {
+    padding: 80px 40px 120px 40px;
+  }
+  @media (max-width: 576px) {
+    padding: 50px 0px 60px 0px;
+  }
+}
+.TaxgoSystem-imgDiv1 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.TaxgoSystem-CardDiv {
+  row-gap: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.TaxgoSystem-imgDiv {
+  @media (max-width: 576px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.TaxgoSystem-Card {
+  width: 100%;
+  height: 150px;
+  @media (max-width: 576px) {
+    width: 280px;
+    height: 230px;
+  }
+}
+.TaxgoSystem-Card1 {
+  width: 100%;
+  height: 220px;
+  @media (max-width: 576px) {
+    width: 280px;
+    height: 230px;
+  }
+}
+.TaxgoSystem-Card2 {
+  width: 80%;
+  @media (max-width: 576px) {
+    width: 280px;
+  }
+}
+.TaxgoSystem-imgDiv2 {
+  padding: 0px 20px;
+  @media (max-width: 576px) {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+}
+/////integration/////////////////////======>>>>
+.integration-Box1 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Integration-Box4 {
+  height: 100%;
+}
+.Integration-Box2 {
+  width: 100%;
+  height: 30%;
+  font-family: vars.$Poppins-Bold;
+  font-size: 35px;
+  color: #18a762;
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 576px) {
+    font-size: 29px;
+  }
+}
+.Integration-Box1 {
+  width: 100%;
+  height: 100vh;
+}
+.Integration-heading1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: vars.$Poppins-ExtraBold;
+  color: #18a762;
+}
+
+.Integration-Box5 {
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  height: 100%;
+}
+.Integration-img {
+  height: 48px;
+}
+.Integration-text {
+  font-size: 13px;
+  padding-top: 10px;
+  font-family: vars.$Poppins-Regular;
+  color: vars.$fullblack;
+}
+.Integration-heading {
+  margin-left: 15px;
+  color: #18a762;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-family: vars.$Poppins-Bold;
+}
+///////stayConnected/////////////////////////////======>>>>>
+.stayConnected-Box1 {
+  width: 100%;
+  background-color: #f4f6f8;
+}
+
+.stayConnected-Box2 {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: vars.$Poppins-ExtraBold;
+  color: #18a762;
+  @media screen and (max-width: 576px) {
+    font-size: 30px;
+  }
+}
+.stayConnected-text1 {
+  text-align: center;
+  font-size: 15px;
+  font-family: vars.$Poppins-Medium;
+}
+///////driveUs==========><><>><><>///////
+.driveUs-Box1 {
+  width: 100%;
+}
+.driveUs-img {
+  height: 48px;
+  margin-right: 15px;
+}
+.DriveUs-Box4 {
+  height: 100%;
+  display: flex;
+}
+.driveUs-Box2 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 27px;
+  color: #18a762;
+  padding-bottom: 40px;
+  text-align: center;
+  @media (max-width: 576px) {
+    font-size: 23px;
+  }
+}
+
+.driveUs-heading1 {
+  margin-left: 15px;
+  color: #18a762;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-family: vars.$Poppins-Bold;
+}
+
+.driveUs-Box5 {
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.driveUs-text {
+  font-size: 13px;
+  padding-top: 10px;
+  font-family: vars.$Poppins-Regular;
+  color: vars.$fullblack;
+}
+.driveUs-heading {
+  color: #18a762;
+  font-family: vars.$Poppins-Bold;
+  display: flex;
+  align-items: center;
+}
+///////profile////////=======><><><><>
+.Profile-Box1 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+}
+//------------video-------------------//
+.video-box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  height: 400px;
+}
+.video-text1 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 20px;
+  // font-weight: 500;
+  color: #34b628;
+}
+.video-text2 {
+  display: flex;
+  font-family: vars.$Poppins-Medium;
+}
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #18a762;
+  border-radius: 1.625rem;
+}
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #18a762;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button:hover .circle {
+  width: 100%;
+}
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+button:hover .button-text {
+  color: #fff;
+}
+.video-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RetailInfo {
+  margin: 10px 0px 10px 0px;
+  padding: 13px;
+  border-radius: 4px;
+  font-family: vars.$Poppins-Regular;
+  font-size: 13px;
+  background-color: rgba(255, 188, 73, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.RetailLink {
+  text-decoration: none;
+  font-family: vars.$Poppins-SemiBold;
+  font-size: 14px;
+  color: black;
+}

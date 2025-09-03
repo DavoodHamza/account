@@ -1,0 +1,311 @@
+.our-products-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+
+  main {
+    flex: 1;
+    padding: 0 20px 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .products-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+
+  .hero-section {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    position: relative;
+    background: linear-gradient(135deg, rgba(24, 167, 98, 0.08) 0%, rgba(24, 167, 98, 0.15) 100%);
+    padding: 80px 20px;
+    margin-bottom: 60px;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(24, 167, 98, 0.2), transparent);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(24, 167, 98, 0.2), transparent);
+    }
+
+    .hero-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+
+      h1 {
+        font-size: 3.5rem;
+        color: #18a762;
+        margin-bottom: 24px;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      .subtitle {
+        font-size: 1.4rem;
+        color: #4a4a4a;
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .products-grid {
+    margin-bottom: 40px;
+  }
+
+  .products-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+
+    .products-intro {
+      text-align: center;
+      margin-bottom: 60px;
+      padding: 60px 20px;
+      // background: linear-gradient(135deg, rgba(24, 167, 98, 0.08) 0%, rgba(24, 167, 98, 0.12) 100%);
+      position: relative;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(to right, transparent, rgba(24, 167, 98, 0.2), transparent);
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(to right, transparent, rgba(24, 167, 98, 0.2), transparent);
+      }
+
+      h2.ant-typography {
+        color: #18a762;
+        font-size: 2.8rem;
+        margin-bottom: 24px;
+        font-weight: 600;
+        position: relative;
+        display: inline-block;
+      }
+
+      .intro-text {
+        font-size: 1.2rem;
+        color: #4a4a4a;
+        max-width: 800px;
+        margin: 0 auto 50px;
+        line-height: 1.6;
+        padding: 0 20px;
+      }
+
+      .integration-benefits {
+        margin-top: 40px;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+        .benefit-item {
+          padding: 30px;
+          background: white;
+          border-radius: 12px;
+          box-shadow: 0 2px 8px rgba(24, 167, 98, 0.1);
+          height: 100%;
+          transition: all 0.3s ease;
+          border: 1px solid rgba(24, 167, 98, 0.1);
+
+          &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(24, 167, 98, 0.15);
+            border-color: rgba(24, 167, 98, 0.2);
+          }
+
+          h3 {
+            color: #18a762;
+            font-size: 1.4rem;
+            margin-bottom: 16px;
+            font-weight: 600;
+          }
+
+          p {
+            color: #666;
+            line-height: 1.6;
+            margin: 0;
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
+
+    .products-grid {
+      padding: 0 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+
+  .product-card {
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .ant-card-head {
+      flex-shrink: 0;
+    }
+
+    .ant-card-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ant-card-head-title {
+      font-size: 1.2rem;
+      color: #18a762;
+    }
+
+    .description {
+      color: #666;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      flex-shrink: 0;
+    }
+
+    .features-list {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+      flex: 1;
+
+      li {
+        margin-bottom: 12px;
+        padding-left: 24px;
+        position: relative;
+        color: #4a4a4a;
+        line-height: 1.4;
+
+        &:before {
+          content: "✓";
+          color: #18a762;
+          position: absolute;
+          left: 0;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+      flex-shrink: 0;
+
+      .view-more-btn {
+        background-color: #18a762;
+        color: white;
+        border: none;
+        transition: all 0.3s ease;
+        flex: 1;
+
+        &:hover {
+          background-color: darken(#18a762, 10%);
+          transform: translateY(-2px);
+        }
+      }
+
+      .visit-site-btn {
+        border: 1px solid #18a762;
+        color: #18a762;
+        background: transparent;
+        transition: all 0.3s ease;
+        flex: 1;
+
+        &:hover {
+          color: white;
+          background-color: #18a762;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+
+  .cta-section {
+    text-align: center;
+    padding: 60px 0;
+    background: #f8f9fa;
+    border-radius: 8px;
+
+    h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-button {
+      background-color: #18a762;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: darken(#18a762, 10%);
+      }
+    }
+  }
+} 

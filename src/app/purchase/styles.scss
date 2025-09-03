@@ -1,0 +1,110 @@
+@use "../../config/variables.scss" as vars;
+.salesInvoice-Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px solid rgb(156, 156, 156);
+  padding: 10px 10px;
+  background-color: rgb(247, 247, 247);
+  font-family: vars.$Poppins-Medium;
+  font-size: 22px;
+}
+.salesInvoice-SubHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(156, 156, 156);
+  padding: 10px 10px;
+  background-color: rgb(247, 247, 247);
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+}
+.salesInvoice-item {
+  border: 1px solid rgb(217, 217, 217);
+}
+.salesInvoice-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_box span::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  z-index: -1;
+  box-shadow: 140px -140px #cc3f47;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
+.paidClass::before {
+  content: "paid";
+  position: absolute;
+  width: 200%;
+  height: 35px;
+  background-color: vars.$green;
+  transform: rotate(45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+.unPaidClass::before {
+  content: "unpaid";
+  position: absolute;
+  width: 200%;
+  height: 35px;
+  background-color: "red";
+  transform: rotate(45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+.partPaidClass::before {
+  content: "paid paid";
+  position: absolute;
+  width: 200%;
+  height: 35px;
+  background-color: "orange";
+  transform: rotate(45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+.items-head {
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.items-value {
+  padding: 1px;
+  font-family: vars.$Poppins-Regular;
+  font-size: 12px;
+}
+.items-value-footer {
+  font-family: vars.$Poppins-Medium;
+  font-size: 13px;
+}

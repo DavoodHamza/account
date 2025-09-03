@@ -1,0 +1,393 @@
+@use "../config/variables.scss" as vars;
+.Navigation-container {
+  min-height: 100vh;
+  background-color: #fff;
+}
+.Navigation-layout {
+  min-height: 100vh;
+  background-color: #f4f6f8;
+}
+.Navigation-Header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid rgb(241, 241, 241);
+  background-color: #fff;
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    gap: 20px;
+  }
+}
+.Navigation-HeaderBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+}
+
+.quesionIcon {
+  @media screen and (max-width: 909px) {
+    display: none !important;
+  }
+}
+.Navigation-HeaderIcon1 {
+  margin-right: 15px;
+  margin-left: 10px;
+  border: 2px solid vars.$primary;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+}
+.Navigation-HeaderIcon2 {
+  margin-right: 6px;
+  margin-left: 6px;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+  // @media screen and (max-width: 580px) {
+  //   display: none;
+  // }
+  // @media screen and (max-width: 909px) {
+  //   display: none;
+  // }
+}
+.helpIcon{
+  @media screen and (max-width: 909px) {
+    display: none;
+  }
+}
+.calculatorIcon{
+  @media screen and (max-width: 909px) {
+    display: none;
+  }
+}
+.Navigation-Headertxt1 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: capitalize;
+  @media screen and (max-width: 909px) {
+    display: none;
+  }
+}
+.Navigation-Headertxt2 {
+  font-family: vars.$Poppins-Regular;
+  font-size: 12px;
+  margin-bottom: -5px;
+  color: gray;
+  cursor: pointer;
+  text-transform: capitalize;
+  @media screen and (max-width: 909px) {
+    display: none;
+  }
+}
+.Navigation-HeaderTimeBox {
+  margin-right: 10px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  border: 1px solid rgb(212, 212, 212);
+  padding: 4px 12px;
+  border-radius: 6px;
+  min-width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.Navigation-HeaderIcon3 {
+  margin: 0px 10px 0px 10px;
+  border: 2px solid rgb(212, 212, 212);
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(119, 119, 119);
+  @media screen and (max-width: 580px) {
+    display: none;
+  }
+}
+.Navigation-SiderBar {
+  height: 100vh;
+  &.scroll {
+    overflow-x: hidden;
+  }
+  &.scroll::-webkit-scrollbar {
+    width: 8px;
+  }
+  &.scroll::-webkit-scrollbar-track {
+    background: #b6b6b6;
+  }
+  &.scroll::-webkit-scrollbar-thumb {
+    background: #e2e2e2;
+  }
+  &.scroll::-webkit-scrollbar-thumb:hover {
+    background: #c8c8c8;
+  }
+}
+.SiderBar-card {
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: vars.$Poppins-Medium;
+}
+.SiderBar-cardtxt {
+  color: vars.$green;
+  font-family: vars.$Poppins-Bold;
+}
+.SiderBar-cardtxt1 {
+  margin: 3px;
+  color: vars.$green;
+  font-size: 20px;
+}
+.SiderBar-txt1 {
+  margin: 20px;
+  margin-bottom: 10px;
+  font-family: vars.$Poppins-Regular;
+  font-size: 13px;
+  color: rgb(174, 174, 174);
+}
+// .SiderBar-scroll {
+// }
+.Navigation-SideItem {
+  margin-top: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.Navigation-SideBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  padding: 3px 10px;
+  &.active {
+    background-color: rgb(255, 250, 238);
+    color: #000;
+    font-weight: 700;
+    border-right: 2px solid vars.$primary;
+  }
+  &:hover {
+    color: #000;
+    font-weight: 700;
+  }
+}
+.Navigation-SideBox1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 7px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+.Navigation-SideItemtxt {
+  margin-bottom: -3px;
+  font-family: vars.$Poppins-Regular;
+  font-size: 14px;
+  flex: 1;
+  margin-left: 5px;
+}
+.Navigation-SideItemicon {
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: rgb(3, 3, 3);
+}
+.Navigation-SideBox2 {
+  border-left: 2px solid rgb(232, 232, 232);
+  padding-left: 23px;
+}
+.Navigation-SideItemtxt2 {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: vars.$Poppins-Regular;
+  color: rgb(0, 0, 0);
+  &:hover {
+    color: #000;
+    font-weight: 700;
+  }
+}
+.Navigation-quickMenu {
+  background-color: vars.$primary;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 100px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: vars.$Poppins-Regular;
+  cursor: pointer;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+}
+.Navigation-Drawer {
+  background-color: red;
+}
+.QuickMenu-item {
+  font-family: vars.$Poppins-Regular;
+  font-size: 14px;
+  white-space: nowrap;
+  border-radius: 100px;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-bottom: 20px;
+
+  color: black;
+  cursor: pointer;
+  &:hover {
+    color: vars.$primary;
+  }
+}
+.Navigation-SideBox3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.navigation-profile-sider-container {
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  // color: gray;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  .username-container {
+    margin-left: 10px;
+
+    .username {
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+  }
+}
+.navigation-user-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  cursor: pointer;
+}
+// profile box --->
+.profileBox-Box1 {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+.profileBox-Box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid rgb(244, 244, 244);
+  &:hover {
+    background-color: #ededed;
+  }
+}
+.profileBox-Txt3 {
+  color: red;
+  cursor: pointer;
+}
+.profileBox-Box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: vars.$Poppins-Medium;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(244, 244, 244);
+  &:hover {
+    background-color: #ededed;
+  }
+}
+// .profileBox-Box4 {
+// }
+.profileBox-txt1 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.Notificaton-Box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  padding-bottom: 10px;
+}
+.Notificaton-Box2 {
+  margin-right: 15px;
+  border-radius: 100px !important;
+  background-color: lightgray;
+  width: 52px !important;
+  height: 52px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HelpBox1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SiderBar-txt3 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: vars.$primary;
+}
+.sider-profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}

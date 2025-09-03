@@ -1,0 +1,51 @@
+@use "../../config/variables.scss" as vars;
+.userManual-contentBox {
+  border-radius: 0px 10px 10px 0px;
+  max-height: 100vh;
+  overflow: scroll;
+}
+.userManual-contentBox::-webkit-scrollbar {
+  width: 0;
+}
+.dashboard-box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  margin: 10px;
+  font-family: vars.$Poppins-Regular;
+  cursor: pointer;
+}
+.dashboard-box1:hover,
+.dashboard-box1.selected {
+  font-family: vars.$Poppins-Medium;
+  background: linear-gradient(to top, rgb(247, 247, 247), transparent);
+  border-bottom: 1px solid transparent;
+}
+.points {
+  font-family: vars.$Poppins-Medium;
+  font-size: 12px;
+  line-height: 30px;
+  margin: 10px 0px 10px;
+}
+.manualtext1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+.para1 {
+  font-family: vars.$Poppins-Regular;
+  line-height: 25px;
+}
+.content-box1 {
+  margin-top: 50px;
+}
+.questions {
+  font-family: vars.$Poppins-Medium;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 10px 0px 10px;
+}

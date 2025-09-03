@@ -1,0 +1,18 @@
+@use "../../../../config/variables.scss" as vars;
+
+.productionDetailsScreen-box1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.productionDetailsScreen-box2 {
+  width: 100%;
+  font-size: 16px;
+  font-family: vars.$Poppins-Regular;
+}
+.productionDetailsScreen-box3 {
+  width: 100%;
+  font-size: 16px;
+  font-family: vars.$Poppins-Medium;
+}

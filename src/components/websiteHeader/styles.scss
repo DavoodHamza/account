@@ -1,0 +1,157 @@
+@use "../../config/variables.scss" as vars;
+
+.websiteHeader {
+  height: 73px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+
+  &.scrolled {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(78, 78, 78, 0.1);
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0px 10px 0px 10px;
+  }
+}
+.mainHeader_Parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.websiteHeader-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.websiteHeader_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.websiteHeader-txt1 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+  color: #3d3d3d;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    color: vars.$green;
+  }
+}
+
+.websiteHeader-btn2 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  border: 1px solid vars.$green;
+  background-color: transparent;
+  color: vars.$green;
+  padding: 6px;
+  border-radius: 7px;
+  width: 150px;
+}
+
+.websiteHeader-btn4 {
+  border: 1px solid vars.$primary;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  background-color: transparent;
+  color: vars.$primary;
+  padding: 6px;
+  border-radius: 7px;
+  width: 150px;
+}
+
+.websiteHeader-logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+
+  @media screen and (max-width: 768px) {
+    width: 99px !important;
+    height: 62px !important;
+  }
+}
+
+.Header-logo {
+  width: 200px;
+  height: 60px;
+  object-fit: cover;
+
+  @media screen and (max-width: 460px) {
+    width: 60px !important;
+    height: 62px !important;
+    object-fit: fill;
+  }
+}
+
+.websiteHeader-btn3 {
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+.websiteHeader-logo {
+  width: 130px;
+}
+
+.LanguageSwitcherd-div1 {
+  color: #000000;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.login_session {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.menuIcon {
+  display: none;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.affiliationPopup {
+  background-color: #f5f5f5;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+.custom_drawer_box2 {
+  display: flex;
+  border-top: 1px solid #cacbcc;
+  padding-top: 10px;
+  flex-direction: column;
+  gap: 10px;
+}

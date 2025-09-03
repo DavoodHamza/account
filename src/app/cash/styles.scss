@@ -1,0 +1,179 @@
+@use "../../config/variables.scss" as vars;
+.bankCard {
+  border-radius: 20px;
+  box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px;
+  border-left: 0.25rem solid #ffbc49;
+  &:hover {
+    border-left: 0.25rem solid #08c988;
+  }
+
+  .avatar {
+    background-color: #ffbc49;
+    font-family: vars.$Poppins-Light;
+    font-size: 22px !important;
+    cursor: pointer;
+  }
+
+  .cardHead {
+    font-family: vars.$Poppins-Bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: inline-block;
+    max-width: 13ch;
+    white-space: nowrap;
+  }
+
+  .cardSubHead {
+    font-family: vars.$Poppins-Regular;
+    font-size: 14px;
+  }
+
+  .avatar2 {
+    height: 30px;
+    width: 35px;
+    background: #08c988;
+    border: 2px solid #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .boldText {
+    font-size: 14px;
+    font-family: vars.$Poppins-Bold;
+  }
+
+  .red {
+    font-size: 18px;
+    font-family: vars.$Poppins-Regular;
+    color: red;
+  }
+
+  .green {
+    font-size: 18px;
+    font-family: vars.$Poppins-Regular;
+    color: green;
+  }
+
+  .normalText {
+    font-size: 16px;
+    font-family: vars.$Poppins-Light;
+  }
+}
+
+.invoiceTable {
+  .dx-header-row {
+    background-color: transparent !important;
+    border: none
+  }
+
+  .dx-datagrid-headers .dx-datagrid-table .dx-row>td {
+    border: none;
+  }
+
+  .dx-datagrid-content .dx-datagrid-table .dx-row>td,
+  .dx-datagrid-content .dx-datagrid-table .dx-row>tr>td {
+    border: none;
+  }
+
+  .dx-datagrid-content .dx-datagrid-table {
+    border: inset;
+  }
+
+  .dx-checkbox-checked .dx-checkbox-icon {
+    color: white !important;
+    background-color: #08C988 !important;
+  }
+}
+
+.bank-Card {
+  .cardHead {
+    color: orange;
+    border-radius: 10px !important;
+  }
+  .ant-btn.ant-btn-sm {
+    padding: 0px;
+  }
+  .NormalText {
+    font-family: vars.$Poppins-Light;
+  }
+}
+.text-1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 20px;
+  color: rgb(38, 38, 38) 5, 63, 63;
+}
+.bank-details-label-text {
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+}
+.Reconcile-Txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 20px;
+  color: rgb(38, 38, 38) 5, 63, 63;
+  padding-bottom: 24px;
+}
+
+.view-bank-transfer-set {
+  display: flex;
+  justify-content: space-between;
+  h6 {
+    font-family: vars.$Poppins-Medium;
+    font-size: 18px;
+    padding-top: 5px;
+    color: grey;
+  }
+}
+.view-bank-transfer-title {
+  font-family: vars.$Poppins-Medium;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.bank-details-tab-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    margin-left: 6px;
+    font-family: vars.$Poppins-Medium;
+    font-size: 16px;
+  }
+}
+.salesReciept-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.salesReciept-Txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 20px;
+  color: #404040;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.tab-item-Txt {
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+}
+.addBank-txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 16px;
+  color: #4e4c4c;
+  letter-spacing: 1px;
+}
+.red{
+  color: red
+}
+.green{
+  color: #08c988
+}

@@ -1,0 +1,106 @@
+@use "../../config/variables.scss" as vars;
+.payrollBox1 {
+  height: 80vh;
+  width: 100%;
+  background-image: url(../../assets/images/payrollmain.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 50px;
+  font-size: 65px;
+  color: #fff;
+  font-family: vars.$Poppins-ExtraBold;
+  line-height: 132.94px;
+}
+.payrollBox2 {
+  width: 100%;
+}
+.payrollBox3 {
+  font-family: vars.$Poppins-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: vars.$fullblack;
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
+}
+.payrollBox4 {
+  font-size: 28px;
+  font-family: vars.$Poppins-Bold;
+  color: vars.$fullblack;
+  text-align: center;
+  padding: 40px 0px 30px 0px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media (max-width: 576px) {
+    font-size: 20px;
+  }
+}
+.payroll-Box5 {
+  width: 100%;
+}
+.payroll-heading1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: vars.$Poppins-ExtraBold;
+  color: #18a762;
+}
+
+.payroll-Box6 {
+  margin-bottom: 100px;
+  @media (min-width: 992px) {
+    padding: 15px;
+  }
+}
+.payrollCard-text {
+  font-size: 13px;
+  padding-top: 10px;
+  font-family: vars.$Poppins-Light;
+}
+
+.payroll-cardtext {
+  padding-left: 15px;
+  font-family: vars.$Poppins-Bold;
+  color: vars.$fullblack;
+  font-size: 18px;
+}
+.payroll-CardDescription {
+  font-size: 16px;
+  color: vars.$fullblack;
+  font-family: vars.$Poppins-Regular;
+  padding: 15px;
+}
+.payroll-img {
+  object-fit: cover;
+  height: 230px;
+}
+.payroll-imgText {
+  font-size: 18px;
+  color: vars.$fullblack;
+  font-family: vars.$Poppins-Regular;
+  padding: 30px !important;
+  background-color: vars.$dasbd;
+  height: 100%;
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
+  @media (max-width: 992px) {
+    font-size: 14px;
+    padding: 25px !important;
+  }
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+.payroll-img1 {
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
+}

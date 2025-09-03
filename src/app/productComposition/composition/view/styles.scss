@@ -1,0 +1,240 @@
+@use "../../../../config/variables.scss" as vars;
+// box
+.detailsCompositeBox1 {
+  @media screen and (min-width: 767.5px) {
+    padding-right: 0px !important;
+  }
+}
+.detailsCompositeBox2 {
+  @media screen and (min-width: 767.5px) {
+    padding-left: 0px !important;
+  }
+}
+.detailsCompositeBox3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 51%;
+  @media screen and (max-width: 767.5px) {
+    height: auto;
+    display: block;
+  }
+}
+.detailsCompositeBox4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.detailsCompositeBox5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50%;
+  @media screen and (max-width: 767.5px) {
+    height: auto;
+    display: block;
+  }
+}
+
+.detailsCompositeBox6 {
+  width: 100%;
+  border-bottom: 1px solid black;
+  //background-color: #ff99001d;
+  // border-radius: 10px;
+  // border-bottom-right-radius: 0px;
+  // border-bottom-left-radius: 0px;
+  font-size: 14px;
+  font-family: vars.$Poppins-Medium;
+  text-align: center;
+  @media screen and (max-width: 767.5px) {
+  }
+}
+.detailsCompositeBox7 {
+  width: 100%;
+  //background-color: #18a76225;
+  //border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  text-align: center;
+  @media screen and (max-width: 767.5px) {
+  }
+}
+.detailsCompositeBox8 {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 767.5px) {
+    display: block;
+  }
+}
+.detailsCompositeBox9 {
+  padding: 10px;
+  border: 1.5px dashed vars.$primary;
+  border-radius: 4px;
+}
+.detailsCompositeBox11 {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  margin-right: 10px;
+  // min-width: 30%;
+  width: 100%;
+  border: 1.3px solid black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px -4px rgba(0, 0, 0, 1);
+  &:nth-child(2) {
+    margin-right: 0px !important;
+  }
+  @media screen and (max-width: 767.5px) {
+    width: 100%;
+    margin-bottom: 15px !important;
+    .ant-input {
+      width: 100% !important;
+    }
+    .ant-input-number {
+      width: 100% !important;
+    }
+  }
+  .ant-input-number-in-form-item {
+    min-width: 5rem !important;
+    width: auto;
+  }
+}
+.detailsCompositeBox12 {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  margin-right: 10px;
+  // min-width: 50%;
+  width: 100%;
+  border: 1.3px solid black;
+  box-shadow: 2px 2px 6px -4px rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  @media screen and (max-width: 767.5px) {
+    width: 100%;
+    padding-right: 10px;
+    .ant-input {
+      width: 100% !important;
+    }
+    .ant-input-number {
+      width: 100% !important;
+    }
+  }
+  .ant-input-number-in-form-item {
+    min-width: 5rem !important;
+    width: auto;
+  }
+}
+// item box
+.detailsCompositeItemsBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: 1.5px solid black;
+  @media screen and (max-width: 767.5px) {
+    border-left: 0px;
+    border: 1px dashed vars.$primary;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.detailsCompositeItemsBox2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: 1.5px solid black;
+  border-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(0, 0, 0) 50%
+  );
+  border-image-slice: 1;
+  @media screen and (max-width: 767.5px) {
+    border-left: 0px;
+    border: 1px dashed vars.$primary;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.detailsCompositeItemsBox3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: 1.5px solid black;
+  border-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0) 50%,
+    rgb(255, 255, 255) 50%
+  );
+  border-image-slice: 1;
+  @media screen and (max-width: 767.5px) {
+    border-left: 0px;
+    border: 1px dashed vars.$primary;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.detailsCompositeItemsBox4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  @media screen and (max-width: 767.5px) {
+    display: block;
+  }
+}
+//   text
+.detailsComposite-Txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+  @media screen and (min-width: 767.5px) {
+    margin-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+}
+.detailsComposite-Txt2 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (min-width: 767.5px) {
+    margin-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+}
+.detailsComposite-Txt3 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.detailsComposite-txt4 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+}
+//line
+.detailsCompositeline1 {
+  border: 1px solid black;
+  width: 100%;
+  @media screen and (max-width: 767.5px) {
+    display: none;
+  }
+}
+.detailsCompositeline2 {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  @media screen and (max-width: 767.5px) {
+    display: none;
+  }
+}

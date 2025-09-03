@@ -1,0 +1,537 @@
+@use "../../config/variables.scss" as vars;
+.pricing-card1 {
+  width: 325px;
+  height: 530px;
+  background-color: #ffffff;
+  border-radius: 41px;
+  padding: 30px;
+  border: solid 1px #bcbcbc;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  @media (max-width: 576px) {
+    width: 290px;
+    height: 470px;
+  }
+}
+.feature-icon {
+  color: rgba(255, 255, 255, 0.514);
+  margin-right: 8px;
+}
+
+.planbox-text3 {
+  min-height: 24px; // Prevent layout shift when loading
+}
+.pricing-Box1 {
+  padding-top: 79px;
+}
+.bg-image {
+  background-image: url(../../assets/images/price-bg.webp);
+  background-color: #f6f6f6;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.pricing-componentCover {
+  padding: 178px 0px 100px 0px;
+}
+.pricing-text1 {
+  color: rgb(33, 196, 33);
+  text-align: center;
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 40px;
+  @media (max-width: 768px) {
+    font-size: 35px;
+  }
+  @media (max-width: 576px) {
+    font-size: 26px;
+    padding: 0px 20px;
+  }
+}
+.pricing-text2 {
+  color: grey;
+  text-align: center;
+  font-family: vars.$Poppins-Medium;
+  font-size: 23px;
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+  @media (max-width: 576px) {
+    font-size: 15px;
+    padding: 0px 20px;
+  }
+}
+.pricing-card2 {
+  width: 320px;
+  height: 620px;
+  border-radius: 46.13px;
+  background-color: #ffbc49;
+  padding: 40px 30px 30px 30px;
+  box-shadow: 0px 25px 40px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  @media (max-width: 576px) {
+    width: 280px;
+    height: 500px;
+  }
+}
+.pricing-box2-head1 {
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 30.02px;
+  text-align: center;
+  color: #878f86;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #d3d3d3;
+  @media (max-width: 576px) {
+    font-size: 25px;
+  }
+}
+.pricing-box2-head2-subhead {
+  color: #878f86;
+  font-size: 50.33px;
+  font-family: vars.$Poppins-ExtraBold;
+  text-align: center;
+  @media (max-width: 576px) {
+    font-size: 40px;
+  }
+}
+.pricing-box2-head2-subhead1 {
+  font-size: 24.39px;
+  color: #878f86;
+  font-family: vars.$Poppins-ExtraBold;
+  @media (max-width: 576px) {
+    font-size: 20px;
+  }
+}
+.pricing-card2-body {
+  color: #222222;
+  font-family: vars.$Poppins-Medium;
+  font-size: 16px;
+  line-height: 50px;
+  @media (max-width: 1200px) {
+    font-size: 13px;
+  }
+}
+.pricing-button {
+  background-color: #878f86;
+  color: #ffffff !important;
+  font-family: vars.$Poppins-Bold !important;
+  font-size: 19.65px !important;
+  border-radius: 16px !important;
+  height: 69px !important;
+  border: none;
+  @media (max-width: 576px) {
+    border-radius: 9.12px !important;
+  }
+}
+.pricing-box2 {
+  border: none;
+  background: linear-gradient(286.1deg, #0ea000 12.77%, #38cd2a 84.05%);
+  z-index: 10;
+  border-radius: 34.17px;
+  width: 350px;
+  height: 165px;
+  margin-left: -45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 576px) {
+    margin-left: -40px;
+    border-radius: 19px;
+    width: 300px;
+    padding-top: 10px;
+  }
+}
+.pricing-whiteColor {
+  color: #ffffff;
+  padding-bottom: 0px !important;
+}
+.pricing-buttonColor {
+  background: linear-gradient(286.1deg, #0ea000 12.77%, #38cd2a 84.05%);
+}
+.pricing-miniCardCover {
+  padding: 100px 230px;
+  @media (max-width: 1300px) {
+    padding: 100px 180px;
+  }
+  @media (max-width: 1100px) {
+    padding: 100px 130px;
+  }
+  @media (max-width: 600px) {
+    padding: 50px 40px;
+  }
+}
+.pricing-minicard-image {
+  width: 100%;
+  height: 180px;
+}
+.pricing-miniCard-head1 {
+  text-align: center;
+  color: #34b628;
+  font-size: 18px;
+  font-family: vars.$Poppins-Bold;
+  padding-bottom: 14px;
+  @media (max-width: 1130px) {
+    font-size: 16px;
+  }
+}
+.pricing-miniCard-head2 {
+  font-size: 16px;
+  font-family: vars.$Poppins-Medium;
+  color: vars.$fullblack;
+  padding-top: 14px;
+  @media (max-width: 1250px) {
+    font-size: 14px;
+  }
+}
+// .pricing-Box1Cover{
+//   @media (max-width:1400px) {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-direction: column;
+//   }
+// }
+.picing-colPadding {
+  @media (max-width: 576px) {
+    padding: 0 !important;
+  }
+}
+.pricing-row1 {
+  @media (max-width: 576px) {
+    margin: 0 !important;
+  }
+}
+.planBoxParent{
+  display: flex;
+  @media screen and (max-width:576px) {
+    flex-direction: column;
+  }
+  
+}
+.planbox-1 {
+  width: 60%;
+  background-color: #19920d;
+  border-radius: 24px 0px 0px 24px;
+  padding: 56px;
+  @media screen and (max-width:576px){
+    border-radius: 24px 24px 0px 0px;
+    padding: 35px; 
+    width: 100%;
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    padding: 23px;
+    
+  }
+}
+
+.planbox1-title1 {
+  color: white;
+  font-size: 35px;
+  font-family: vars.$Poppins-Medium;
+  padding-bottom: 8px;
+  @media screen and (max-width:576px){
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    font-size: 27px;
+    
+  }
+  }
+.planbox1-title2 {
+  font-size: 24px;
+  font-family: vars.$Poppins-Medium;
+  padding-bottom: 8px;
+  color: rgba(255, 255, 255, 0.850);
+  @media screen and (max-width:576px){
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+.planbox1-title3 {
+  font-size: 50px;
+  font-family: vars.$Poppins-Medium;
+  color: white;
+  @media screen and (max-width:576px){
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    font-size: 39px;
+    
+  }
+
+}
+.planbox1-title4 {
+  font-size: 16px;
+  font-family: vars.$Poppins-Light;
+  color: rgba(255, 255, 255, 0.850);
+  padding-bottom: 20px;
+  margin-top: -8px;
+  @media screen and (max-width:576px){
+    font-size: 10px;
+    text-align: center;
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    font: 11px;
+    
+  }
+
+  }
+
+.PlanBoxMonth {
+  font-size: 30px;
+  font-family: vars.$Poppins-Medium;
+  // @media screen and (min-width:576px) and (max-width:768px){
+  //   font-size: 19px;
+  // }
+
+}
+.planbox1-bttn {
+  height: 55px;
+  width: 100%;
+  background: linear-Gradient(to right, #b0f822, #2de41d);
+  border-radius: 12px;
+  font-family: vars.$Poppins-Bold;
+  border: none;
+  font-size: 20px;
+  @media screen and (max-width:576px){
+    height: 37px;
+    font-size: 16px;
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    height: 39px;
+    
+  }
+
+}
+.planbox-2 {
+  width: 45%;
+  border-radius: 0px 24px 24px 0px;
+  padding: 35px;
+  background-color: #15720c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media screen and (max-width:576px) {
+    border-radius: 0px 0px 24px 24px;
+    padding: 21px;
+    align-items: center;
+    width: 100%;
+    
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    padding: 18px;
+    width: 45%;
+
+    
+  }
+}
+.planbox-text2 {
+  font-size: 17px;
+  font-family: vars.$Poppins-Medium;
+  color: #f6f6f6;
+  line-height: 58px;
+  @media screen and (max-width:576px){
+    font-size: 14px;
+    line-height: 43px;
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    font-size: 12px;
+    line-height: 40px;    
+  }
+
+}
+
+.planbox-text3 {
+  font-size: 17px;
+  font-family: vars.$Poppins-Medium;
+  color: #f6f6f6;
+  line-height: 20px;
+  @media screen and (max-width:576px){
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    font-size: 12px;
+    line-height: 16px;    
+  }
+
+}
+
+
+.planBoxTitle {
+  font-family: vars.$Poppins-Medium;
+  font-size: 25px;
+  color: white;
+  @media screen and (max-width:576px){
+    font-size: 23px;
+
+  }
+  @media screen and (min-width:576px ) and (max-width:768px){
+    font-size: 21px;
+    
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//my code 
+
+
+
+.bg-image {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+
+.pricing-componentCover {
+  padding: 100px 0; 
+}
+
+.pricing-title {
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+
+.planBoxParent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+
+.planbox-left {
+  background-color: #19920d; 
+  border-radius: 24px;
+  padding: 30px;
+  color: #ffffff;
+  flex: 1; 
+
+}
+
+
+.planbox-right {
+  background-color: #15720c; 
+  border-radius: 24px;
+  padding: 30px;
+  color: #ffffff;
+  flex: 1;
+}
+
+.planbox-heading {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-family: vars.$Poppins-Medium;
+
+}
+
+
+.planbox-subtext {
+  font-size: 16px;
+  margin: 12px 0;
+  line-height: 1.4;
+  font-family: vars.$Poppins-Medium;
+
+}
+
+
+.planbox-price {
+  font-size: 28px;
+  margin: 8px 0;
+  font-weight: 700;
+}
+
+.planbox-annual {
+  font-size: 28px;
+  margin: 8px 0;
+  font-weight: 700;
+  opacity: 0.9; 
+  font-family: vars.$Poppins-Medium;
+
+}
+
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 5px;
+  font-family: vars.$Poppins-Medium;
+
+
+  .icon {
+    margin-right: 8px;
+    color: #fff;
+  }
+}
+
+.planbox-button {
+  height: 55px;
+  width: 100%;
+  background: linear-gradient(to right, #b0f822, #2de41d);
+  border-radius: 12px;
+  font-family: vars.$Poppins-Bold;
+  border: none;
+  font-size: 20px;
+  margin-top: 50px; 
+}
+
+
+.pricing-top-heading {
+  color: #1cc522; 
+  font-size: 38px; 
+  font-weight: 700; 
+  margin-bottom: 12px; 
+  font-family: vars.$Poppins-ExtraBold;
+
+}
+
+.pricing-subheading {
+  color: #7f7f7f; 
+  font-size: 18px;
+  max-width: 700px; 
+  margin: 0 auto 40px; 
+  font-family: vars.$Poppins-Medium;
+
+}
+

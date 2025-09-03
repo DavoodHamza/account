@@ -1,0 +1,38 @@
+{
+    "dashboard": {
+        "title": {
+            "sale_progress": "විකුණුම් ප්‍රගතිය",
+            "total_customer": "මුළු පාරිභෝගිකයින්",
+            "total_profit": "මුළු ලාභය",
+            "sale_preview": "විකුණුම් පෙරදසුන",
+            "purchase_preview": "මිලදී ගැනීමේ පෙරදසුන",
+            "latest_order": "නවතම ඇණවුම්"
+        }
+    },
+    "sidebar": {
+        "title": {
+            "dashboard": "උපකරණ පුවරුව",
+            "productService": "නිෂ්පාදන/සේවා",
+            "stock": "කොටස්",
+            "nonstock": "කොටස් නොවන",
+            "service": "සේවය",
+            "sale": "අලෙවි",
+            "invoice": "ඉන්වොයිසිය",
+            "cnote": "ණය සටහන්",
+            "purchase": "මිලදී",
+            "dnote": "හර සටහන්",
+            "contact": "සම්බන්ධතා",
+            "customer": "පාරිභෝගිකයන්",
+            "supplier": "සැපයුම්කරුවන්",
+            "document": "ලේඛන",
+            "journal": "සඟරා",
+            "cash":"මුදල්",
+            "bank":"බැංකුව",
+            "report":"වාර්තා",
+            "ledger"  : "ලෙජර්ස්",
+            "myledger": "මගේ ලෙජර්ස්",
+            "defaultledger": "පෙරනිමි ලෙජර්",
+            "merchant": "වෙළෙන්දා"
+        }
+    }
+}

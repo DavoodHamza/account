@@ -1,0 +1,33 @@
+@use "../../config/variables.scss" as vars;
+.about-paragraph {
+  font-family: vars.$Poppins-Light;
+  padding: 5px 0px 5px;
+  font-size: 18px;
+  color: vars.$GreyGreen;
+}
+.about-title {
+  font-family: vars.$Poppins-Bold;
+  padding: 5px 0px 5px;
+  font-size: 19px;
+  color: vars.$dark;
+}
+.about-end {
+  font-family: vars.$Poppins-SemiBold;
+  padding: 5px 0px 5px;
+  font-size: 15px;
+  color: vars.$dark;
+}
+.bg-image {
+  background-image: url(../../assets/images/price-bg.webp);
+  background-color: #f6f6f6;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.aboutImage {
+  margin-top: 50px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 5px;
+  }
+}

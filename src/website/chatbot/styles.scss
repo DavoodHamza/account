@@ -1,0 +1,207 @@
+@use "../../config/variables.scss" as global;
+.website-LoginBox2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.messageBubble-Container {
+  border: 0.1px solid #dddddd;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.robo-bubble-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.robo-bubble {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  // background-color: aquamarine;
+  width: 100%;
+}
+.robo-gif {
+  height: 90px;
+}
+.robo-gif-big {
+  height: 140px;
+}
+.typeWriteMessage {
+  color: global.$primary;
+  font-family: global.$Poppins-Regular;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.chatInputConatiner {
+  width: 100%;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2px solid #d3d3d3;
+}
+.chatInputConatiner2 {
+  width: 100%;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border: 0.2px solid #d3d3d3;
+}
+
+.chatInput {
+  width: 100%;
+  height: 35px;
+  border: none;
+  display: flex;
+  outline: none;
+
+.chatInput .ant-input {
+  border: none;
+  border-radius: 0;
+}
+
+}
+.customBtnSendMsg {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+}
+.btnSmall {
+  height: 26px;
+  width: 26px;
+}
+.cardContainer {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  padding: 10px;
+}
+.inputCardsInner {
+  padding: 13px;
+  border: 0.2px solid #d3d3d3;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:hover {
+    background-color: #ebebeb;
+  }
+}
+.inputCards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: global.$Poppins-Medium;
+  font-size: 12px;
+}
+.cardDesc {
+  font-family: global.$Poppins-Regular;
+  font-size: 11px;
+}
+.right {
+  display: flex;
+  align-items: flex-end;
+}
+.onboarding-container {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+}
+
+.onboarding-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.pagination-buttons {
+  margin-top: 20px;
+  // background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nextbutton {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 0.3px solid global.$primary;
+  background-color: global.$primary;
+  font-family: global.$Poppins-Regular;
+  color: #ffffff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.inputContainer {
+  // background-color: red;
+  // height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+  gap: 20px;
+  & input {
+    border-radius: 8px;
+    outline: none;
+    border: 0.3px solid #f1f1f1;
+    padding: 13px;
+  }
+}
+
+.website-LoginBox22 {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.website-LoginBox2{
+  display: flex;
+  justify-content: space-between;
+}
+.conversationContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  margin-top: 23px;
+}

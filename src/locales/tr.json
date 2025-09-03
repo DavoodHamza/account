@@ -1,0 +1,38 @@
+{
+    "dashboard": {
+        "title": {
+            "sale_progress": "SATIŞ İLERLEMESİ",
+            "total_customer": "TOPLAM MÜŞTERİ",
+            "total_profit": "TOPLAM KAR",
+            "sale_preview": "Satış Önizlemesi",
+            "purchase_preview": "Satın Alma Önizlemesi",
+            "latest_order": "Son Siparişler"
+        }
+    },
+    "sidebar": {
+        "title": {
+            "dashboard": "Gösterge Paneli",
+            "productService": "Ürün/Hizmet",
+            "stock": "Stoklamak",
+            "nonstock": "Stoksuz",
+            "service": "Hizmet",
+            "sale": "Satış",
+            "invoice": "Fatura",
+            "cnote": "Kredi notları",
+            "purchase": "Satın almak",
+            "dnote": "Borç senedi",
+            "contact": "Kişiler",
+            "customer": "Müşteriler",
+            "supplier": "Tedarikçiler",
+            "document": "Belgeler",
+            "journal": "Dergiler",
+            "cash":"Peşin",
+            "bank":"Banka",
+            "report":"Raporlar",
+            "ledger"  : "defterler",
+            "myledger": "Defterlerim",
+            "defaultledger": "Varsayılan Defterler",
+            "merchant": "Tüccar"
+        }
+    }
+}

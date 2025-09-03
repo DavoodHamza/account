@@ -1,0 +1,173 @@
+@use "./config/variables.scss" as vars;
+.website-screens {
+  padding-top: 73px;
+}
+// .website-Mainbox {
+// }
+
+.adminTable-Box1 {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #f4f6f8;
+  padding: 15px;
+  @media screen and (max-width: 580px) {
+    padding: 2px;
+}
+}
+.customBtn {
+  @media screen and (max-width: 411px) {
+    width: 85px;
+  }
+}
+
+.heading-txt1 {
+  font-family: vars.$Poppins-Bold;
+}
+
+.heading-txt2 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 17px;
+}
+.heading-txt3 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 15px;
+  color: #000;
+}
+.heading-txt4 {
+  font-family: vars.$Poppins-Regular;
+  font-size: 10px;
+  color: #4b4b4b;
+}
+
+.table-title {
+  font-family: vars.$Poppins-Regular;
+  font-size: 12px;
+}
+.table-BtnBox {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.table-actionBox {
+  min-width: 100px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 20x;
+}
+.table-actionBoxItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  &:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    color: #18a762;
+    cursor: pointer;
+  }
+}
+.white-card {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+.inner-card {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(243 243 243 / 37%);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.table-Action {
+  display: flex;
+  justify-content: space-evenly;
+}
+.primary-Button {
+  width: 100%;
+  border: 2px solid #ff9800 !important;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px !important;
+  color: #ff9800 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px !important;
+  &:hover {
+    background-color: #f39202 !important;
+    color: white !important;
+  }
+}
+
+.formLabel {
+  font-family: vars.$Poppins-Medium;
+  font-size: 12px !important;
+  color: #4b4b4b;
+  padding-left: 4px !important;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgb(209, 209, 209);
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.Table-Txt {
+  font-family: vars.$Poppins-Medium;
+  font-size: 22px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.dx-header-row {
+  background-color: #feefc3;
+  border: none !important;
+  font-family: vars.$Poppins-Bold;
+  font-size: 15px;
+  color: #000;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  font-weight: 600;
+  height: 30px;
+  text-align: center !important;
+  vertical-align: middle;
+}
+.dx-checkbox-checked .dx-checkbox-icon {
+  color: white !important;
+  background-color: #ff9800 !important ;
+}
+.dx-datagrid-checkbox-size.dx-checkbox-indeterminate .dx-checkbox-icon::before {
+  border-radius: 0;
+}
+.dx-checkbox-indeterminate .dx-checkbox-icon::before {
+  background-color: #ff9800 !important;
+}
+.dx-datagrid .dx-row > td {
+  font-family: vars.$Poppins-Regular;
+  height: 35px;
+  vertical-align: middle !important ;
+}
+.Normal-Font {
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tab-title {
+  margin-left: 6px;
+  font-family: vars.$Poppins-Medium;
+}

@@ -1,0 +1,302 @@
+$primary-color: #f44336;
+$secondary-color: #ffffff;
+$text-color: #333333;
+$gray-light: #f5f5f5;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@mixin button-base {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+// Main Styles
+.food-delivery-app {
+  min-height: 100vh;
+  background-color: $gray-light;
+}
+
+// Navigation
+.main-nav {
+  background-color: $secondary-color;
+  box-shadow: $box-shadow;
+  padding: 1rem 0;
+
+  .nav-container {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: none;
+      gap: 2rem;
+
+      @media (min-width: 768px) {
+        display: flex;
+      }
+
+      button {
+        background: none;
+        border: none;
+        color: $text-color;
+        cursor: pointer;
+        
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 1rem;
+
+      .sign-in {
+        @include button-base;
+        background: none;
+        color: $text-color;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+
+      .sign-up {
+        @include button-base;
+        background-color: $primary-color;
+        color: $secondary-color;
+
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+    }
+  }
+}
+
+// Hero Section
+.hero-section {
+  padding: 4rem 0;
+
+  .hero-container {
+    @include container;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .hero-content {
+      flex: 1;
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+
+        @media (min-width: 768px) {
+          font-size: 3.5rem;
+        }
+      }
+
+      p {
+        color: lighten($text-color, 20%);
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+
+      .explore-btn {
+        @include button-base;
+        background-color: $primary-color;
+        color: $secondary-color;
+        // display: flex;
+        width:30%;
+        align-items: center;
+        gap: 0.5rem;
+        text-align: center;
+        outline: none;
+
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+    }
+
+    .hero-image {
+      flex: 1;
+      @include flex-center;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+// About Section
+.about-section {
+  padding: 4rem 0;
+
+  .about-container {
+    @include container;
+    text-align: center;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .chef-image {
+        flex: 1;
+        
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .about-details {
+        flex: 1;
+        text-align: left;
+
+        p {
+          margin-bottom: 2rem;
+          line-height: 1.6;
+          color: lighten($text-color, 20%);
+        }
+
+        .info-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+
+          .info-card {
+            background-color: $secondary-color;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: $box-shadow;
+
+            h3 {
+              font-weight: bold;
+              margin-bottom: 0.5rem;
+            }
+
+            p {
+              margin: 0;
+              color: lighten($text-color, 20%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Popular Food Section
+.popular-food-section {
+  padding: 4rem 0;
+
+  .food-container {
+    @include container;
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .food-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+
+      @media (min-width: 576px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (min-width: 992px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .food-card {
+        background-color: $secondary-color;
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: $box-shadow;
+
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 8px;
+          margin-bottom: 1rem;
+        }
+
+        .food-info {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 0.5rem;
+
+          h3 {
+            font-weight: bold;
+          }
+
+          .price {
+            color: $primary-color;
+            font-weight: bold;
+          }
+        }
+
+        .rating-stars {
+          display: flex;
+          gap: 0.25rem;
+
+          .star {
+            color: #ddd;
+
+            &.filled {
+              color: #ffd700;
+              fill: #ffd700;
+            }
+          }
+        }
+      }
+    }
+  }
+}

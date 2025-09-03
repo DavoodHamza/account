@@ -1,0 +1,32 @@
+[
+  {
+    "name": "sdate",
+    "title": "DATE",
+    "dataType": "date",
+    "alignment": "center",
+    "format": "dd-MM-yyyy"
+  },
+  {
+    "name": "customer",
+    "title": "PARTICULARS",
+    "dataType": "string",
+    "alignment": "center"
+  },
+  {
+    "name": "type",
+    "title": "ACCOUNT TYPE",
+    "alignment": "center"
+  },
+  {
+    "name": "credit",
+    "title": "PAID",
+    "dataType": "string",
+    "alignment": "center"
+  },
+  {
+    "name": "debit",
+    "title": "RECEIVED",
+    "dataType": "string",
+    "alignment": "center"
+  }
+]

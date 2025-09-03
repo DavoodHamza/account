@@ -1,0 +1,35 @@
+@use "../../config/variables.scss" as vars;
+.Terms-mainTaitil{
+    font-family: vars.$Poppins-Black;
+    color: vars.$fullblack;
+    font-size: 34px;
+    margin-top: 50px;
+    @media screen and (max-width:576px) {
+        font-size: 30px;
+    }
+}
+.Terms-desc{
+    font-family: vars.$Poppins-Medium;
+    color: vars.$GreyGreen;
+    font-size: 16px;
+    margin: 20px 0px 20px 0px;
+}
+.Terms_taitil{
+    font-family: vars.$Poppins-Bold;
+    color: vars.$fullblack;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.Terms-desc1{
+    color: vars.$Green;
+}
+
+strong{
+    color: rgb(44, 43, 43);
+}
+p a {
+    color: vars.$Green ; 
+}
+li a {
+    color: vars.$Green ; 
+}

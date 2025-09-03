@@ -1,0 +1,32 @@
+[
+  {
+    "name": "name",
+    "title": "Name",
+    "dataType": "string",
+    "alignment": "center"
+  },
+  {
+    "name": "email",
+    "title": "Email",
+    "dataType": "string",
+    "alignment": "center"
+  },
+  {
+    "name": "phone",
+    "title": "Phone",
+    "dataType": "string",
+    "alignment": "center"
+  },
+  {
+    "name": "ContactOption",
+    "title": "Type",
+    "dataType": "string",
+    "alignment": "center"
+  },
+  {
+    "name": "message",
+    "title": "Message",
+    "dataType": "string",
+    "alignment": "center"
+  }
+]

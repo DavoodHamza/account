@@ -1,0 +1,149 @@
+@use "../../config/variables.scss" as vars;
+
+.Retail-Box1 {
+  width: 100%;
+  padding: 70px;
+  @media (max-width: 768px) {
+    padding: 100px 0px 0px 0px;
+  }
+  @media (max-width: 576px) {
+    padding: 100px 20px 0px 20px;
+  }
+}
+.Retail-Box2 {
+  width: 100%;
+  height: 100%;
+  //   background-color: red;
+}
+.Retail-Box3 {
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 30px;
+  color: vars.$Green;
+  @media (max-width: 576px) {
+    font-size: 22px;
+  }
+}
+.retail-img {
+  width: 90%;
+}
+.Retail-Box4 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+  flex-direction: column;
+}
+.retailstayConnected-Box1 {
+  @media (max-width: 576px) {
+    padding: 0px 20px 20px 20px;
+  }
+}
+
+.retailstayConnected-Box2 {
+  text-align: center;
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 33px;
+  color: vars.$Green;
+  @media (max-width: 576px) {
+    font-size: 28px;
+  }
+}
+.retailstayConnected-text1 {
+  font-size: 15px;
+  font-family: vars.$Poppins-Medium;
+  color: vars.$GreyGreen;
+  text-align: center;
+  @media (max-width: 576px) {
+    font-size: 13px;
+  }
+}
+.Retail-Box5 {
+  font-family: vars.$Poppins-Bold;
+  line-height: 30px;
+  color: vars.$fullblack;
+  font-size: 18px;
+}
+.Retail-Box6 {
+  font-size: 14px;
+  font-family: vars.$Poppins-Regular;
+  color: vars.$fullblack;
+}
+.Retail-Box7 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 12px;
+  line-height: 30px;
+  color: vars.$GreyGreen;
+}
+.retailFeatures-coverDiv {
+  padding: 150px 200px;
+  background-color: vars.$dasbd;
+  @media (max-width: 1400px) {
+    padding: 150px 150px;
+  }
+  @media (max-width: 1300px) {
+    padding: 120px 120px;
+  }
+  @media (max-width: 1200px) {
+    padding: 120px 150px;
+  }
+  @media (max-width: 992px) {
+    padding: 120px 120px;
+  }
+  @media (max-width: 768px) {
+    padding: 100px 100px;
+  }
+  @media (max-width: 576px) {
+    padding: 80px 90px;
+  }
+  @media (max-width: 430px) {
+    padding: 60px 40px;
+  }
+}
+.retailFeatures-cardImg {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+.retailFeatures-card {
+  border-radius: 16px;
+  background-color: #fff;
+  text-align: center;
+  font-family: vars.$Poppins-Bold;
+  font-size: 14px;
+  box-shadow: 0px 4px 24px 0px #0000001a;
+  color: vars.$fullblack;
+  line-height: 45px;
+}
+.retailFeatures-taitil {
+  color: vars.$fullblack;
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 27px;
+  // padding-bottom: 20px;
+  @media (max-width: 1200px) {
+    padding-bottom: 20px;
+  }
+}
+.retailFeatures-description {
+  font-family: vars.$Poppins-Regular;
+  font-size: 14px;
+  color: vars.$fullblack;
+  padding-bottom: 20px;
+  @media (max-width: 1200px) {
+    padding-bottom: 40px;
+  }
+}
+.retailFeatures-downloadText {
+  font-family: vars.$Poppins-Medium;
+  font-size: 13px;
+  color: vars.$GreyGreen;
+  padding-bottom: 10px;
+}
+.retailFeatures-textMainDiv {
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+}

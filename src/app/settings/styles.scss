@@ -1,0 +1,56 @@
+.settings-tab-container {
+  justify-content: center;
+}
+.settings-tags {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.settings-tab-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .settings-tab-title-text {
+    margin-left: 6px;
+  }
+}
+.settings-customize-Box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settings-customize-Img1 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.settings-customize-Box2 {
+  display: flex;
+  min-height: 240px;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: start;
+  &:hover {
+    background-color: #f3f3f3;
+  }
+}
+.settings-customize-Box3 {
+  text-align: center;
+}
+.settings-customize-Box4 {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+}
+.settings-customize-Box6 {
+  background-color: #e0e0e0;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}

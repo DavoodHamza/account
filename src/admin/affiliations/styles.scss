@@ -1,0 +1,135 @@
+@use "../../config/variables.scss" as vars;
+
+.affiliation_box1 {
+  display: flex;
+  justify-content: space-between;
+}
+.affiliation_txt1 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 20px;
+}
+.Affiliation_Keys {
+  font-family: vars.$Poppins-Medium;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.Affiliation_Values {
+  font-family: vars.$Poppins-Regular;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.affiliation_title {
+  font-family: vars.$Poppins-Bold;
+  font-size: 22px;
+  color: #18a762;
+  @media (max-width: 576px) {
+    font-size: 23px;
+  }
+}
+
+.profile-picture-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_profile_parent {
+  display: flex;
+  flex-direction: column;
+}
+.form_profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.form_profile_img {
+  width: 200px;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid rgb(217, 217, 217);
+}
+.profile-picture {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.profile-img {
+  width: 90%;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid rgb(217, 217, 217);
+}
+.profile-edit {
+  position: absolute;
+  bottom: -12px;
+  background-color: vars.$primary;
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  cursor: pointer;
+}
+.affiliatephoto_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.affiliate_profilepic {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.profile_Photo {
+  width: 90%;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid rgb(217, 217, 217);
+}
+.Affiliate_name {
+  font-family: vars.$Poppins-SemiBold;
+  text-align: center;
+}
+.affiliate_card_text {
+  font-family: vars.$Poppins-Regular;
+  font-size: 25px;
+}
+.affiliation_section {
+  border-radius: 10px;
+  background-image: linear-gradient(
+    170deg,
+    vars.$primary2,
+    vars.$primary2,
+    #f0fef7
+  );
+}
+
+.affiliation_description {
+  color: vars.$dark;
+  font-size: 16px;
+  line-height: 2;
+  font-family: vars.$Poppins-Regular;
+}
+.affiliation_sub {
+  color: vars.$green;
+  font-size: 18px;
+  font-family: vars.$Poppins-SemiBold;
+}
+.step_number {
+  color: vars.$balck;
+  font-size: 16px;
+  font-family: vars.$Poppins-Bold;
+  line-height: 2.5;
+}

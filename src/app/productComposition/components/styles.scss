@@ -1,0 +1,289 @@
+@use "../../../config//variables.scss" as vars;
+.table-actionBoxItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  &:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    color: #18a762;
+    cursor: pointer;
+  }
+}
+//Bom form Data
+.createComposite-Txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+  @media screen and (min-width: 767.5px) {
+    margin-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+}
+.createComposite-Txt2 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (min-width: 767.5px) {
+    margin-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+}
+.createComposite-Txt3 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.createCompositeBox3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 33%;
+  @media screen and (max-width: 767.5px) {
+    height: auto;
+    display: block;
+  }
+}
+.createCompositeBox4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.createCompositeBox5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50%;
+  @media screen and (max-width: 767.5px) {
+    height: auto;
+    display: block;
+  }
+}
+
+.createCompositeBox1 {
+  @media screen and (min-width: 767.5px) {
+    padding-right: 0px !important;
+  }
+}
+.createCompositeBox2 {
+  @media screen and (min-width: 767.5px) {
+    padding-left: 0px !important;
+  }
+}
+.createCompositeline1 {
+  border: 1px solid black;
+  width: 100%;
+  @media screen and (max-width: 767.5px) {
+    display: none;
+  }
+}
+.createCompositeline2 {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  @media screen and (max-width: 767.5px) {
+    display: none;
+  }
+}
+.compositeItemsBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: 1.5px solid black;
+  @media screen and (max-width: 767.5px) {
+    border-left: 0px;
+    border: 1px dashed vars.$primary;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.compositeItemsBox2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: 1.5px solid black;
+  border-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(0, 0, 0) 50%
+  );
+  border-image-slice: 1;
+  @media screen and (max-width: 767.5px) {
+    border-left: 0px;
+    border: 1px dashed vars.$primary;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.compositeItemsBox3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: 1.5px solid black;
+  border-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0) 50%,
+    rgb(255, 255, 255) 50%
+  );
+  border-image-slice: 1;
+  @media screen and (max-width: 767.5px) {
+    border-left: 0px;
+    border: 1px dashed vars.$primary;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.compositeItemsBox4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  @media screen and (max-width: 767.5px) {
+    border: 1px dashed vars.$primary;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+.createCompositeBox6 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  @media screen and (max-width: 767.5px) {
+    display: block;
+  }
+}
+.createCompositeBox7 {
+  padding: 10px;
+  border: 1.5px dashed vars.$primary;
+  border-radius: 4px;
+}
+.createCompositeBox8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createCompositeBox9 {
+  @media screen and (max-width: 767.5px) {
+    display: none;
+  }
+}
+.createCompositeBox10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 767.5px) {
+    display: none;
+  }
+}
+.createCompositeFormItem1 {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  margin-right: 10px;
+  // min-width: 50%;
+  width: 100%;
+  @media screen and (max-width: 767.5px) {
+    width: 100%;
+    padding-right: 10px;
+    .ant-input {
+      width: 100% !important;
+    }
+    .ant-input-number {
+      width: 100% !important;
+    }
+  }
+  .ant-input-number-in-form-item {
+    min-width: 5rem !important;
+    width: auto;
+  }
+}
+.createCompositeFormItem2 {
+  margin-bottom: 0px !important;
+}
+.createCompositeFormItem3 {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  margin-right: 10px;
+  // min-width: 30%;
+  width: 100%;
+  &:nth-child(2) {
+    margin-right: 0px !important;
+  }
+  @media screen and (max-width: 767.5px) {
+    width: 100%;
+    margin-bottom: 15px !important;
+    .ant-input {
+      width: 100% !important;
+    }
+    .ant-input-number {
+      width: 100% !important;
+    }
+  }
+  .ant-input-number-in-form-item {
+    min-width: 5rem !important;
+    width: auto;
+  }
+}
+.createCompositeIcon1 {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  margin-right: 10px;
+  color: red;
+  @media screen and (max-width: 767.5px) {
+    margin-right: 0px;
+  }
+}
+.createCompositeSelector {
+  min-width: 50%;
+  width: fit-content;
+  @media screen and (max-width: 767.5px) {
+    width: 100% !important;
+  }
+}
+.createCompositeBtn1 {
+  padding: 0px;
+  @media screen and (min-width: 767.5px) {
+    margin-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  // @media screen and (max-width: 767.5px) {
+  //   padding: 0px;
+  // }
+}
+
+
+//productionItemsDataTable
+.productionScreenTableHeader1 {
+  // background-color: #d9d9d9 !important;
+  background-color: #f7f7f7 !important;
+  border-color: #f7f7f7 !important;
+  border-bottom: 2px solid #9c9c9c !important;
+}
+.createProductionScreenTable-1 {
+  border-top-color: #f7f7f7 !important;
+  margin-bottom: 0px !important;
+}
+.productionScreenTable-2 {
+  border-top-color: #f7f7f7 !important;
+}
+.productionScreen-txt5 {
+  font-size: 17px;
+  font-family: vars.$Poppins-Regular;
+}

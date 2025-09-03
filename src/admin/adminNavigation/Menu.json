@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard",
+    "path": "/admin/dashboard",
+    "icon": "RxDashboard"
+  },
+  {
+    "id": 2,
+    "name": "News",
+    "path": "/admin/news",
+    "icon": "IoNewspaperOutline"
+  },
+  {
+    "id": 3,
+    "name": "Users",
+    "path": "/admin/users/taxgo",
+    "icon": "LuUsers",
+    "submenu": [
+      {
+        "key": "1",
+        "name": "Tax GO",
+        "route": "/admin/users/taxgo",
+        "icon": "TbMathSymbols"
+      },
+      {
+        "key": "2",
+        "name": "Retail Xpress",
+        "route": "/admin/users/retail_xpress",
+        "icon": "TbDeviceMobileCheck"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Subscriptions",
+    "path": "/admin/subscriptions",
+    "icon": "FaRegCreditCard"
+  },
+  {
+    "id": 7,
+    "name": "Loyalty Card",
+    "path": "/admin/loyaltyCard",
+    "icon": "FaRegCreditCard"
+  },
+  {
+    "id": 5,
+    "name": "Affiliates",
+    "path": "/admin/affiliations",
+    "icon": "RiCoupon3Line"
+  },
+  {
+    "id": 6,
+    "name": "Enquiry",
+    "path": "/admin/enquiry",
+    "icon": "RiContactsLine"
+  }
+]

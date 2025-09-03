@@ -1,0 +1,26 @@
+@use '../../config/variables.scss' as vars;
+
+.Createjournal-box1{
+    height: 100vh;
+    width: 100%;
+  padding: 30px;
+  $backround: #fafafa;
+}
+.Createjournal-box2{
+    padding: 25px;
+    background-color: white;
+}
+.Createjournal-form{
+    padding: 20px; 
+}
+.Createjournal-form1{
+    padding: 20px; 
+}
+.Createjournal-form2{
+    padding: 20px; 
+}
+.Createjournal-button{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}

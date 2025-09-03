@@ -1,0 +1,88 @@
+{
+  "name": "taxgo-web-v2",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^2.0.3",
+    "@ant-design/icons": "^5.2.6",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.39",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-router-dom": "^5.3.3",
+    "antd": "^5.16.1",
+    "antd-input-otp": "^2.0.5",
+    "bootstrap": "^5.3.1",
+    "dayjs": "^1.11.10",
+    "devextreme": "^23.2.3",
+    "devextreme-react": "^23.2.3",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "firebase": "^10.7.1",
+    "html5-qrcode": "^2.3.8",
+    "i": "^0.3.7",
+    "i18next": "^23.8.1",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.456.0",
+    "moment": "^2.29.4",
+    "npm": "^10.7.0",
+    "react": "^18.2.0",
+    "react-barcode": "^1.4.6",
+    "react-bootstrap": "^2.8.0",
+    "react-cropper": "^2.3.3",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-i18next": "^14.0.1",
+    "react-icons": "^4.11.0",
+    "react-live-clock": "^6.1.14",
+    "react-moment": "^1.1.3",
+    "react-otp-input": "^3.1.1",
+    "react-redux": "^8.1.2",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.14.2",
+    "react-s3": "^1.3.1",
+    "react-scripts": "5.0.1",
+    "react-spring": "^9.7.3",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.64.2",
+    "translate": "^3.0.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts -max_old_space_size=4096 start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts -max_old_space_size=4096 build",
+    "test": "react-scripts -max_old_space_size=4096 test",
+    "eject": "react-scripts -max_old_space_size=4096 eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash": "^4.17.17"
+  }
+}

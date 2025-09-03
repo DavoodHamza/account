@@ -1,0 +1,205 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+      </head>
+      <body style="padding: 0px; margin: 0px;">
+      <div style="text-align: center; height: 100vh; ">
+            <div style="width: 100px; "></div>
+            <div >
+            <div style="display: flex;">
+            <div style="width: 50px; height: 50px;">
+            <img src="https://taxgo.s3.eu-west-1.amazonaws.com/taxgo/proposal/1705486330817.jpg" style="width: 100%; height: 100%;"/>
+            </div>
+            <h4 style="margin-left:10px; "> 
+            ${data.from_company_name}
+           </h4>
+            </div>
+                <h1>
+                ${data.proposal_title}
+                </h1>
+                <h2 style="">
+                ${moment(data.proposal_date).format("DD-MM-YYYY")}
+                </h2>
+            </div>
+        
+    
+    </div>
+    
+    <div style="text-align: center; height: 100vh; ">
+          <div style="width: 100px; height: 100%; float: left;"></div> 
+              <div
+                style="
+                  margin-left: 100px;
+                  height: 100%;
+                  overflow: hidden;
+                  display: flex;
+                  flex-direction: column;
+                "
+              >
+              <h1 >About the Company</h1>
+    
+                <div style="display: flex; justify-content: space-around ; padding: 5px;margin-top: 30px;">
+                    <div style="display: flex; padding: 5px; width: 60%;">
+                        <p>
+                        ${data.proposal_details}
+                        </p>
+                      </div>
+                    <div style="padding: 5px; width: 40%;">
+                    </div>
+                 </div>
+              </div>
+            </div>
+    
+    
+            <div style="text-align: center; height: 100vh;">
+                  <div style="width: 100px; height: 100%; float: left;"></div> 
+            <div
+              style="
+                margin-left: 100px;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+              "
+            >
+            <h1 >Contact Us</h1>
+    
+              <div style="display: flex; justify-content: space-around ; padding: 5px;margin-top: 30px;">
+                <div>
+                    <strong>Website : </strong> <p>
+                    ${data.from_website}</p>
+                </div>
+                <div>
+                    <strong>Phone : </strong> <p>
+                    ${data.from_mobile}</p>
+                </div>
+                <div>
+                    <strong>Address : </strong> <p>
+                    ${data.from_address}</p>
+                </div>
+                <div>
+                    <strong>Email : </strong> <p>
+                    ${data.from_email}</p>
+                </div>
+               </div>
+           
+            </div>
+          </div>
+    
+    
+    
+          <div style="text-align: center; height: 100vh;">
+                <div style="width: 100px;  height: 100%; float: left;"></div> 
+          <div
+            style="
+              margin-left: 100px;
+              height: 100%;
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+            "
+          >
+          <h1 >Proposal Details</h1>
+    
+            <div style="display: flex; justify-content: space-around ; padding: 5px;margin-top: 30px;">
+                ${data.proposal_details}
+              
+             </div>
+         
+          </div>
+        </div>
+
+
+    
+        <div style="text-align: center; height: 100vh;">
+              <div style="width: 100px;  height: 100%; float: left;"></div> 
+        <div
+          style="
+            margin-left: 100px;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+        <h1 >Terms & Conditions</h1>
+    
+          <div style="display: flex; justify-content: space-around ; padding: 5px;margin-top: 30px;">
+              ${data.proposal_terms}
+            
+           </div>
+       
+        </div>
+      </div>
+    
+    
+   <div style="text-align: center; height: 100vh;">
+          <div style="width: 100px; height: 100%; float: left;"></div> 
+      <div
+        style="
+          margin-left: 100px;
+          height: 100%;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+        "
+      >
+      <h1 >Billings</h1>
+    
+        <div style="display: flex; justify-content: center ; padding: 5px;margin-top: 30px;">
+        <table>
+        <thead>
+          <tr>
+            <th>DESCRIPTION</th>
+            <th>QUANTITY</th>
+            <th>PRICE</th>
+            <th>TOTAL</th>
+            <th></th>
+          </tr>
+        </thead>
+        ${data?.billing?.map(
+          (item: any, index: any) =>
+            `<tr key=${index}>
+            <td>${item?.description}</td>
+            <td>${item?.qty}</td>
+            <td>${item?.price}</td>
+            <td>${item?.total}</td>
+          </tr>`
+        )}
+      </tbody>
+      </table>
+          
+         </div>
+     
+      </div>
+    </div>
+    
+    
+    
+    
+    <div style="text-align: center; height: 100vh; ">
+          <div style="width: 100px; height: 100%; float: left;"></div> 
+    <div
+      style="
+        margin-left: 100px;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      "
+    >
+    <h1 >Conclusion</h1>
+    
+      <div style="display: flex; justify-content: space-around ; padding: 5px;margin-top: 30px;">
+        ${data.conclusion}
+       </div>
+    
+    </div>
+    </div>
+    
+      </body>
+    </html>

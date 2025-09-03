@@ -1,0 +1,31 @@
+@use "../../config/variables.scss" as vars;
+.calculator-result {
+  height: 50px;
+  background-color: #f3f3f3;
+  font-family: vars.$Poppins-Medium;
+
+  border: 1px solid grey;
+}
+
+.calculator-result p {
+  font-size: 27px;
+  margin: 5px;
+}
+
+.calculator-body {
+  margin: auto;
+  width: 200px;
+  overflow: hidden;
+}
+
+.calculator-button {
+  display: block;
+  button {
+    width: 25%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #fdf8f0;
+    font-family: vars.$Poppins-Medium;
+    border: 1px solid grey;
+  }
+}

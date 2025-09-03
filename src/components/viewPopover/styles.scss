@@ -1,0 +1,20 @@
+@use "../../config/variables.scss" as vars;
+.viewpopover-Box2 {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  cursor: pointer;
+  &:hover {
+    border-left: 1px solid red;
+    background-color: #ededed;
+  }
+}
+.viewpopover-Box1 {
+  width: 100px;
+}
+.viewpopover-Txt1 {
+  font-family: vars.$Poppins-Medium;
+  font-size: 12px;
+  color: #1a1a1a;
+  padding-left: 8px;
+}

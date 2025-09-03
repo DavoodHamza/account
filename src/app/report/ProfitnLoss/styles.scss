@@ -1,0 +1,15 @@
+@use "../../../config//variables.scss" as vars;
+
+.profitandlossItem1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+// .pandltext{
+//   text-align: end;
+// }
+.profitandlosshead{
+  background-color: #e9b312;
+  font-size: 16px;
+
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "key": "1",
+    "name": "Dashboard",
+    "route": "/usr/dashboard",
+    "icon": "IoGridOutline",
+    "submenu": []
+  },
+  {
+    "key": "2",
+    "name": "Product & Service",
+    "route": "/usr/product",
+    "icon": "RiShoppingBagLine",
+    "submenu": [
+      {
+        "key": "1",
+        "name": "Stock",
+        "route": "/usr/productStock",
+        "icon": "PiChartLineUpBold"
+      },
+      {
+        "key": "2",
+        "name": "Non Stock",
+        "route": "/usr/productNonStock",
+        "icon": "IoBan"
+      },
+      {
+        "key": "3",
+        "name": "Service",
+        "route": "/usr/productService",
+        "icon": "RiSignalTowerLine"
+      }
+    ]
+  },
+  {
+    "key": "4",
+    "name": "Sales",
+    "route": "/usr/sale",
+    "icon": "FiTag",
+    "submenu": [
+      {
+        "key": "1",
+        "name": "Sales Invoice ",
+        "route": "/usr/sales-invoice",
+        "icon": "LiaFileInvoiceSolid"
+      },
+      {
+        "key": "2",
+        "name": "Proforma Invoice",
+        "route": "/usr/sales-proforma-invoice",
+        "icon": "GoChecklist"
+      },
+      {
+        "key": "3",
+        "name": "Credit Notes",
+        "route": "/usr/salesCredit",
+        "icon": "HiOutlineClipboardDocumentList"
+      },
+      {
+        "key": "5",
+        "name": "Reccuring Notification",
+        "route": "/usr/sales-reccuring-notification",
+        "icon": "TbChecklist"
+      }
+    ]
+  },
+  {
+    "key": "5",
+    "name": "Purchase",
+    "route": "/usr/Purchase",
+    "icon": "FiShoppingCart",
+    "submenu": [
+      {
+        "key": "1",
+        "name": "Cost of Goods Sold",
+        "route": "/usr/purchace-invoice",
+        "icon": "MdShoppingCartCheckout"
+      },
+      {
+        "key": "2",
+        "name": "Debit Notes",
+        "route": "/usr/purchase-debit-note",
+        "icon": "CgNotes"
+      },
+      {
+        "key": "3",
+        "name": "Purchase For Assets",
+        "route": "/usr/purchase-fore-assets",
+        "icon": "FiShoppingBag"
+      }
+    ]
+  },
+  {
+    "key": "6",
+    "name": "Contacts",
+    "route": "/usr/contacts",
+    "icon": "FaRegUser",
+    "submenu": [
+      {
+        "key": "1",
+        "name": "Customers",
+        "route": "/usr/contactCustomers",
+        "icon": "LuUser2"
+      },
+      {
+        "key": "2",
+        "name": "Suppliers",
+        "route": "/usr/contactSuppliers",
+        "icon": "LiaLuggageCartSolid"
+      }
+    ]
+  },
+  {
+    "key": "7",
+    "name": "Journals",
+    "route": "/usr/journal",
+    "icon": "FiBook",
+    "submenu": []
+  },
+  {
+    "key": "11",
+    "name": "Bank",
+    "route": "/usr/cashBank",
+    "icon": "TbBuildingBank",
+    "submenu": []
+  },
+  {
+    "key": "12",
+    "name": "Cash",
+    "route": "/usr/cash",
+    "icon": "TbMoneybag",
+    "submenu": []
+  },
+  {
+    "key": "13",
+    "name": "Report",
+    "route": "/usr/report",
+    "icon": "IoBarChartOutline",
+    "submenu": []
+  },
+  {
+    "key": "14",
+    "name": "Ledger",
+    "route": "/usr/ledgers",
+    "icon": "LuClipboardList",
+    "submenu": [
+      {
+        "key": "1",
+        "name": "My Ledgers",
+        "route": "/usr/ledgerMyLedger",
+        "icon": "CiViewList"
+      },
+      {
+        "key": "2",
+        "name": "Default Ledgers",
+        "route": "/usr/ledgerDefaultLedger",
+        "icon": "SlNotebook"
+      },
+      {
+        "key": "3",
+        "name": "My Category",
+        "route": "/usr/ledgerMyCategory",
+        "icon": "SlNote"
+      },
+      {
+        "key": "4",
+        "name": "Defualt Category",
+        "route": "/usr/ledgerDefaultCategory",
+        "icon": "LuBookOpen"
+      },
+      {
+        "key": "5",
+        "name": "Pay Heads",
+        "route": "/usr/payHead",
+        "icon": "CiViewList"
+      },
+      {
+        "key": "6",
+        "name": "Fixed Asset",
+        "route": "/usr/purchaseFixedAsset",
+        "icon": "RiSignalTowerLine"
+      }
+    ]
+  },
+  {
+    "key": "18",
+    "name": "Proposal",
+    "route": "/usr/proposal",
+    "icon": "MdOutlineStickyNote2",
+    "submenu": []
+  },
+  {
+    "key": "21",
+    "name": "Settings",
+    "route": "/usr/settings",
+    "icon": "CiSettings",
+    "submenu": []
+  },
+  {
+    "key": "19",
+    "name": "Staffs",
+    "route": "/usr/stsffs",
+    "icon": "CiSettings",
+    "submenu": []
+  }
+]
+

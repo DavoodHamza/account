@@ -1,0 +1,118 @@
+@use "../../config/variables.scss" as vars;
+.website-ForgotBox1 {
+  height: 100vh;
+  background-image: linear-gradient(
+    170deg,
+    vars.$primary2,
+    vars.$primary2,
+    #f0fef7
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
+}
+.website-ForgotBox2 {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 25px;
+  }
+}
+.website-Forgottxt1 {
+  font-family: vars.$Poppins-Medium;
+  text-align: center;
+  font-size: 30px;
+}
+.website-Forgottxt2 {
+  font-family: vars.$Poppins-Regular;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
+  border-radius: 7px;
+}
+.website-Forgottxt3 {
+  width: 100%;
+  text-align: right;
+  color: vars.$green;
+  margin-top: 5px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.website-Forgottxt4 {
+  text-align: center;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.website-ForgotBack {
+  margin: 20px;
+  font-family: vars.$Poppins-Medium;
+  display: flex;
+  align-items: center;
+  color: vars.$green;
+  font-size: 30px;
+}
+// reset password----------------------------------
+.website-ResetPasswordBox1 {
+  height: 100vh;
+  background-image: linear-gradient(
+    170deg,
+    vars.$primary2,
+    vars.$primary2,
+    #f0fef7
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
+}
+.website-ResetPasswordBox2 {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 25px;
+  }
+}
+.website-ResetPasswordtxt1 {
+  font-family: vars.$Poppins-Medium;
+  text-align: center;
+  font-size: 30px;
+}
+.website-ResetPasswordtxt2 {
+  font-family: vars.$Poppins-Regular;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
+  border-radius: 7px;
+}
+.website-ResetPasswordttxt3 {
+  width: 100%;
+  text-align: right;
+  color: vars.$green;
+  margin-top: 5px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.website-ResetPasswordtxt4 {
+  text-align: center;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.website-ResetPasswordBack {
+  margin: 20px;
+  font-family: vars.$Poppins-Medium;
+  display: flex;
+  align-items: center;
+  color: vars.$green;
+  font-size: 30px;
+}

@@ -1,0 +1,139 @@
+@use "../../config/variables.scss" as vars;
+// .websiteFooter {
+//   background-color: vars.$dark;
+//   padding: 20px;
+// }
+// .websiteFooter-txt1 {
+//   color: #fff;
+//   text-align: center;
+//   font-family: vars.$Poppins-Regular;
+//   font-size: 13px;
+//   border-top: 0.5px solid #282e52;
+//   padding-top: 20px;
+// }
+// .websiteFooter-txt2 {
+//   color: #fff;
+//   font-family: vars.$Poppins-Medium;
+//   font-size: 25px;
+//   margin-bottom: 20px;
+// }
+// .websiteFooter-txt3 {
+//   color: #fff;
+//   font-family: vars.$Poppins-Regular;
+//   font-size: 14px;
+//   margin-bottom: 10px;
+// }
+// .websiteFooter-row {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: space-around;
+// }
+
+/////////////Old footer/////////////
+
+//////////////////New footer///////////////////
+.WebsiteFooter-coveringDiv {
+  padding: 70px 200px 41px 200px;
+  @media (max-width: 1400px) {
+    padding: 70px 140px 41px 140px;
+  }
+  @media (max-width: 1200px) {
+    padding: 70px 100px 41px 100px;
+  }
+  @media (max-width: 768px) {
+    padding: 70px 70px 41px 70px;
+  }
+  @media (max-width: 576px) {
+    padding: 70px 50px 41px 50px;
+  }
+}
+.WebsiteFooter-bg {
+  background-color: vars.$dark;
+}
+.WebsiteFooter-miniText {
+  color: vars.$lightgrey;
+  font-family: vars.$Poppins-Light;
+  font-size: 14px;
+  line-height: 30px;
+  @media (max-width:576px) {
+    font-size: 13px;
+  }
+}
+.WebsiteFooter-taitil {
+  color: vars.$dpyello;
+  font-family: vars.$Poppins-Medium;
+  font-size: 17px;
+  @media (max-width:576px) {
+    font-size: 13px;
+  }
+}
+.WebsiteFooter-final {
+  border-top: solid 1px vars.$dgrey;
+  color: vars.$dgrey;
+  font-family: vars.$Poppins-Regular;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+  text-decoration: none !important;
+  @media (max-width:576px) {
+    background-color: vars.$dpyello;
+    color:vars.$balck;
+    font-size: 13px;
+  }
+}
+.WebsiteFooter-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  @media (max-width:576px) {
+    align-items: center;
+  }
+}
+.WebsieFooter-textMainDiv {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 768px) {
+    justify-content: start;
+    padding-top: 20px;
+  }
+  @media (max-width:576px) {
+    justify-content: center;
+  }
+}
+.WebsiteFooter-div3 {
+  display: flex;
+  justify-content: end;
+  @media (max-width: 992px) {
+    justify-content: start;
+    padding-top: 20px;
+  }
+  @media (max-width: 768px) {
+    justify-content: end;
+  }
+  @media (max-width:576px) {
+    justify-content: center;
+  }
+}
+.WebsiteFooter-socialMedia {
+  @media (max-width: 576px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.WebsiteFooter-taxgoLogo{
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  padding-bottom: 10px;
+  @media (max-width:576px) {
+    height: 95px;
+    width: 180px;
+  }
+}
+.websiteFooter-textLast{
+  color: vars.$dpyello;
+  font-size: 13px;
+  font-family: vars.$Poppins-Regular;
+}

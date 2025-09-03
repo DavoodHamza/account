@@ -1,0 +1,7 @@
+@use "../../config/variables.scss" as vars;
+.ledger-Txt1 {
+  font-family: vars.$Poppins-Bold;
+  font-size: 18px;
+  text-align: start !important;
+  padding-bottom: 20px;
+}

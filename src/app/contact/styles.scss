@@ -1,0 +1,130 @@
+@use "../../config/variables.scss" as vars;
+
+.customer-table-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  .customer-title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  .input-field {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+  }
+}
+
+.customer-title-row {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.create-customer-container {
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.details-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  h5 {
+    font-weight: 800;
+    color: grey;
+  }
+}
+.customer-details-row {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+}
+.customer-detail-box-container {
+  padding: 20px;
+  background-color: white !important;
+  border-radius: 4px;
+}
+.customer-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.customer-title {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.create-customer-container {
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 4px;
+  .ant-form-item-label {
+    padding-bottom: 2px;
+    font-weight: 600;
+  }
+}
+.details-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  h5 {
+    font-weight: 800;
+    color: grey;
+  }
+}
+.customer-details-row {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.customer-icon-container {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #4caf50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.customer-icon-text {
+  margin-left: 15px;
+}
+.button-container {
+  button {
+    height: 40px;
+    padding: 0px 32px;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #ffbc49;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+    border: #ffbc49;
+    &:hover {
+      background-color: black;
+      color: #ffbc49 !important;
+      border: black;
+    }
+  }
+}
+.contact-filter-icon {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: lightgray;
+  }
+}

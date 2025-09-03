@@ -1,0 +1,142 @@
+@use "../../config/variables.scss" as vars;
+
+.Company_logo {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 9vh;
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 80%;
+  }
+}
+.adminContainer {
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+.adminImage {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.adminName {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.sidebarBox {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.sideBar_item {
+  padding: 10px 5px;
+  display: flex;
+  font-family: vars.$Poppins-Regular;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  &.active {
+    background-color: rgb(255, 250, 238);
+    font-family: vars.$Poppins-SemiBold;
+    border-right: 2px solid vars.$primary;
+  }
+  &:hover {
+    font-family: vars.$Poppins-SemiBold;
+  }
+}
+.sideItemText {
+  flex: 1 1;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.sideItemIcon {
+  align-items: center;
+  border-radius: 10px;
+  color: #030303;
+  display: flex;
+  font-size: 20px;
+  height: 35px;
+  justify-content: center;
+  width: 35px;
+}
+.subBox {
+  border-left: 2px solid #e8e8e8;
+  margin-left: 23px;
+}
+.subItem {
+  padding-left: 23px;
+  align-items: center;
+  display: flex;
+  margin: 10px 15px 10px;
+  padding-bottom: 10px;
+}
+
+.LayoutHeader {
+  background-color: #fff;
+  border-bottom: 2px solid #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0px 20px;
+  height: 9vh;
+}
+.LayoutHeader-timer {
+  margin-right: 10px;
+  font-family: vars.$Poppins-SemiBold;
+  font-size: 14px;
+  border: 1px solid rgb(212, 212, 212);
+  padding: 4px 12px;
+  border-radius: 6px;
+  min-width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PageHeader-Box {
+  width: 100%;
+  padding: 8px 16px 16px 0px;
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+.PageHeader-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 15px;
+  &:hover {
+    background-color: rgb(243, 243, 243);
+  }
+}
+.pageHeader-title {
+  font-weight: 600;
+  font-size: 17px;
+}
+.pageHeader-breadcrumb {
+  border-left: 1px solid rgb(226, 226, 226);
+  .ant-breadcrumb a {
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .last-breadcrumb-item {
+    font-weight: 600 !important;
+  }
+}
+.pageHeader-children {
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}

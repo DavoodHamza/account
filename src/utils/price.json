@@ -1,0 +1,2531 @@
+[
+    {
+      "id": 1,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "AFN",
+      "country_name": "Afghanistan",
+      "Symbol.1": "AFN",
+      "Amount": 150.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 2,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "AFN",
+      "country_name": "Afghanistan",
+      "Symbol.1": "AFN",
+      "Amount": 1800.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 5,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "LEK",
+      "country_name": "Albania",
+      "Symbol.1": "LEK",
+      "Amount": 200.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 6,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "LEK",
+      "country_name": "Albania",
+      "Symbol.1": "LEK",
+      "Amount": 2400.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 9,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "DZD",
+      "country_name": "Algeria",
+      "Symbol.1": "DZD",
+      "Amount": 200.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 10,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "DZD",
+      "country_name": "Algeria",
+      "Symbol.1": "DZD",
+      "Amount": 2400.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 13,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "ARS",
+      "country_name": "Argentina",
+      "Symbol.1": "ARS",
+      "Amount": 19.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 14,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "ARS",
+      "country_name": "Argentina",
+      "Symbol.1": "ARS",
+      "Amount": 239.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 17,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Eur",
+      "country_name": "Austria",
+      "Symbol.1": "Eur",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 18,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Eur",
+      "country_name": "Austria",
+      "Symbol.1": "Eur",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 21,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "AZN",
+      "country_name": "Azerbaijan",
+      "Symbol.1": "AZN",
+      "Amount": 49.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 22,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "AZN",
+      "country_name": "Azerbaijan",
+      "Symbol.1": "AZN",
+      "Amount": 599.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 25,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "AOA",
+      "country_name": "Angola",
+      "Symbol.1": " Kz",
+      "Amount": 500.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 26,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "AOA",
+      "country_name": "Angola",
+      "Symbol.1": " Kz",
+      "Amount": 6000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 29,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "AUD",
+      "country_name": "Australia",
+      "Symbol.1": " $ ",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 30,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "AUD",
+      "country_name": "Australia",
+      "Symbol.1": " $ ",
+      "Amount": 109.99,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 33,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BSD",
+      "country_name": "Bahamas The",
+      "Symbol.1": "$",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 34,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BSD",
+      "country_name": "Bahamas The",
+      "Symbol.1": "$",
+      "Amount": 72.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 37,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "AWG",
+      "country_name": "Bahrain",
+      "Symbol.1": "دينار ",
+      "Amount": 3.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 38,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "AWG",
+      "country_name": "Bahrain",
+      "Symbol.1": "دينار ",
+      "Amount": 36.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 41,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BDT",
+      "country_name": "Bangladesh",
+      "Symbol.1": "৳",
+      "Amount": 299.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 42,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BDT",
+      "country_name": "Bangladesh",
+      "Symbol.1": "৳",
+      "Amount": 3289.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 45,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BYN",
+      "country_name": "Belarus",
+      "Symbol.1": "BYN",
+      "Amount": 75.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 46,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BYN",
+      "country_name": "Belarus",
+      "Symbol.1": "BYN",
+      "Amount": 900.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 49,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Eur",
+      "country_name": "Belgium",
+      "Symbol.1": "Eur",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 50,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Eur",
+      "country_name": "Belgium",
+      "Symbol.1": "Eur",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 53,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BTN",
+      "country_name": "Bhutan",
+      "Symbol.1": "BTN",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 54,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BTN",
+      "country_name": "Bhutan",
+      "Symbol.1": "BTN",
+      "Amount": 71.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 57,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BOB",
+      "country_name": "Bolivia",
+      "Symbol.1": " Bs.",
+      "Amount": 19.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 58,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BOB",
+      "country_name": "Bolivia",
+      "Symbol.1": " Bs.",
+      "Amount": 240.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 61,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BAM",
+      "country_name": "Bosnia and Herzegovina",
+      "Symbol.1": "KM",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 62,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BAM",
+      "country_name": "Bosnia and Herzegovina",
+      "Symbol.1": "KM",
+      "Amount": 72.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 65,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BWP",
+      "country_name": "Botswana",
+      "Symbol.1": "P",
+      "Amount": 29.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 66,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BWP",
+      "country_name": "Botswana",
+      "Symbol.1": "P",
+      "Amount": 360.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 69,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BRL",
+      "country_name": "Brazil",
+      "Symbol.1": "R$",
+      "Amount": 15.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 70,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BRL",
+      "country_name": "Brazil",
+      "Symbol.1": "R$",
+      "Amount": 192.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 73,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BND",
+      "country_name": "Brunei",
+      "Symbol.1": "$",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 74,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BND",
+      "country_name": "Brunei",
+      "Symbol.1": "$",
+      "Amount": 72.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 77,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "BGN",
+      "country_name": "Bulgaria",
+      "Symbol.1": " лв",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 78,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "BGN",
+      "country_name": "Bulgaria",
+      "Symbol.1": " лв",
+      "Amount": 72.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 81,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "KHR",
+      "country_name": "Cambodia",
+      "Symbol.1": "៛",
+      "Amount": 5999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 82,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "KHR",
+      "country_name": "Cambodia",
+      "Symbol.1": "៛",
+      "Amount": 72000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 85,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "XAF",
+      "country_name": "Cameroon",
+      "Symbol.1": " Fr",
+      "Amount": 999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 86,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "XAF",
+      "country_name": "Cameroon",
+      "Symbol.1": " Fr",
+      "Amount": 12000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 89,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CAD",
+      "country_name": "Canada",
+      "Symbol.1": "$ ",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 90,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CAD",
+      "country_name": "Canada",
+      "Symbol.1": "$ ",
+      "Amount": 109.99,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 93,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CFA",
+      "country_name": "Chad",
+      "Symbol.1": "CFA",
+      "Amount": 700.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 94,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CFA",
+      "country_name": "Chad",
+      "Symbol.1": "CFA",
+      "Amount": 8400.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 97,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "KYD",
+      "country_name": "Cayman Islands",
+      "Symbol.1": "$",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 98,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "KYD",
+      "country_name": "Cayman Islands",
+      "Symbol.1": "$",
+      "Amount": 72.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 101,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Pesos CLP",
+      "country_name": "Chile",
+      "Symbol.1": "CLP",
+      "Amount": 12000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 102,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Pesos CLP",
+      "country_name": "Chile",
+      "Symbol.1": "CLP",
+      "Amount": 144000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 105,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "COP",
+      "country_name": "Colombia",
+      "Symbol.1": "$ ",
+      "Amount": 5999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 106,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "COP",
+      "country_name": "Colombia",
+      "Symbol.1": "$ ",
+      "Amount": 72000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 109,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "KMF",
+      "country_name": "Comoros",
+      "Symbol.1": "KMF",
+      "Amount": 4000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 110,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "KMF",
+      "country_name": "Comoros",
+      "Symbol.1": "KMF",
+      "Amount": 48000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 113,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CFA",
+      "country_name": "Cote d\"Ivoire",
+      "Symbol.1": "CFA",
+      "Amount": 3000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 114,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CFA",
+      "country_name": "Cote d\"Ivoire",
+      "Symbol.1": "CFA",
+      "Amount": 36000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 117,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "HRK",
+      "country_name": "Croatia (Hrvatska)",
+      "Symbol.1": "kn",
+      "Amount": 29.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 118,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "HRK",
+      "country_name": "Croatia (Hrvatska)",
+      "Symbol.1": "kn",
+      "Amount": 360.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 121,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CUP",
+      "country_name": "Cuba",
+      "Symbol.1": "$",
+      "Amount": 49.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 122,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CUP",
+      "country_name": "Cuba",
+      "Symbol.1": "$",
+      "Amount": 600.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 125,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Cyprus",
+      "Symbol.1": "EUR",
+      "Amount": 4.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 126,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Cyprus",
+      "Symbol.1": "EUR",
+      "Amount": 59.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 129,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CZK",
+      "country_name": "Czech Republic",
+      "Symbol.1": "Kč ",
+      "Amount": 49.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 130,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CZK",
+      "country_name": "Czech Republic",
+      "Symbol.1": "Kč ",
+      "Amount": 600.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 133,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "DKK",
+      "country_name": "Denmark",
+      "Symbol.1": "DKK",
+      "Amount": 180.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 134,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "DKK",
+      "country_name": "Denmark",
+      "Symbol.1": "DKK",
+      "Amount": 2160.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 137,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "DOP",
+      "country_name": "Dominican Republic",
+      "Symbol.1": " $",
+      "Amount": 89.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 138,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "DOP",
+      "country_name": "Dominican Republic",
+      "Symbol.1": " $",
+      "Amount": 1079.8799999999999,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 141,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "USD",
+      "country_name": "Ecuador",
+      "Symbol.1": "$",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 142,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "USD",
+      "country_name": "Ecuador",
+      "Symbol.1": "$",
+      "Amount": 71.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 145,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "USD",
+      "country_name": "El Salvador",
+      "Symbol.1": "$",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 146,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "USD",
+      "country_name": "El Salvador",
+      "Symbol.1": "$",
+      "Amount": 71.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 149,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EGP",
+      "country_name": "Egypt",
+      "Symbol.1": "£ or ج.م ",
+      "Amount": 69.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 150,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EGP",
+      "country_name": "Egypt",
+      "Symbol.1": "£ or ج.م ",
+      "Amount": 839.8799999999999,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 153,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "XAF",
+      "country_name": "Equatorial Guinea",
+      "Symbol.1": "Fr",
+      "Amount": 499.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 154,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "XAF",
+      "country_name": "Equatorial Guinea",
+      "Symbol.1": "Fr",
+      "Amount": 5988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 157,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "ERN",
+      "country_name": "Eritrea",
+      "Symbol.1": "Nfk",
+      "Amount": 39.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 158,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "ERN",
+      "country_name": "Eritrea",
+      "Symbol.1": "Nfk",
+      "Amount": 480.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 161,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Estonia",
+      "Symbol.1": "€ ",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 162,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Estonia",
+      "Symbol.1": "€ ",
+      "Amount": 48.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 165,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "ETB",
+      "country_name": "Ethiopia",
+      "Symbol.1": "Br",
+      "Amount": 299.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 166,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "ETB",
+      "country_name": "Ethiopia",
+      "Symbol.1": "Br",
+      "Amount": 3588.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 169,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Finland",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 170,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Finland",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 173,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "France",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 174,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "France",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 177,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "ETB",
+      "country_name": "Gabon",
+      "Symbol.1": "Fr",
+      "Amount": 5999.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 178,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "XAF",
+      "country_name": "Gabon",
+      "Symbol.1": "Fr",
+      "Amount": 499.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 181,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Germany",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 182,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Germany",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 185,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Lari",
+      "country_name": "Georgia",
+      "Symbol.1": "Lari",
+      "Amount": 20.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 186,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Lari",
+      "country_name": "Georgia",
+      "Symbol.1": "Lari",
+      "Amount": 240.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 189,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Ghanaian Cedi",
+      "country_name": "Ghana",
+      "Symbol.1": "GHS",
+      "Amount": 228.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 190,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Ghanaian Cedi",
+      "country_name": "Ghana",
+      "Symbol.1": "GHS",
+      "Amount": 19.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 193,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Greece",
+      "Symbol.1": "€",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 194,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Greece",
+      "Symbol.1": "€",
+      "Amount": 48.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 197,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "GNF",
+      "country_name": "Guinea",
+      "Symbol.1": "Fr",
+      "Amount": 9999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 198,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "GNF",
+      "country_name": "Guinea",
+      "Symbol.1": "Fr",
+      "Amount": 119988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 201,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "HTG",
+      "country_name": "Haiti",
+      "Symbol.1": "G",
+      "Amount": 79.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 202,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "HTG",
+      "country_name": "Haiti",
+      "Symbol.1": "G",
+      "Amount": 959.8799999999999,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 205,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "HKD",
+      "country_name": "Hong Kong",
+      "Symbol.1": "HKD",
+      "Amount": 82.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 206,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "HKD",
+      "country_name": "Hong Kong",
+      "Symbol.1": "HKD",
+      "Amount": 984.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 209,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "HUF",
+      "country_name": "Hungary",
+      "Symbol.1": " Ft ",
+      "Amount": 599.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 210,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "HUF",
+      "country_name": "Hungary",
+      "Symbol.1": " Ft ",
+      "Amount": 7188.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 213,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Iceland",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 214,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Iceland",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 217,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "INR",
+      "country_name": "India",
+      "Symbol.1": "₹",
+      "Amount": 600.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 218,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "INR",
+      "country_name": "India",
+      "Symbol.1": "₹",
+      "Amount": 7200.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 220,
+      "Product": "Tax GO/Retail Xpress - Monthly Subscription",
+      "Symbol": "INR",
+      "country_name": "India",
+      "Symbol.1": "₹",
+      "Amount": 3600.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 221,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "IDR",
+      "country_name": "Indonesia",
+      "Symbol.1": "Rp",
+      "Amount": 9999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 222,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "IDR",
+      "country_name": "Indonesia",
+      "Symbol.1": "Rp",
+      "Amount": 119988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 225,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "IRR",
+      "country_name": "Iran",
+      "Symbol.1": " ﷼ ",
+      "Amount": 59999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 226,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "IRR",
+      "country_name": "Iran",
+      "Symbol.1": " ﷼ ",
+      "Amount": 719988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 229,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "IQD",
+      "country_name": "Iraq",
+      "Symbol.1": " ع.د",
+      "Amount": 2999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 230,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "IQD",
+      "country_name": "Iraq",
+      "Symbol.1": " ع.د",
+      "Amount": 35988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 233,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Ireland",
+      "Symbol.1": " € ",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 234,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Ireland",
+      "Symbol.1": " € ",
+      "Amount": 109.99,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 237,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "ILS",
+      "country_name": "Israel",
+      "Symbol.1": "₪",
+      "Amount": 19.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 238,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "ILS",
+      "country_name": "Israel",
+      "Symbol.1": "₪",
+      "Amount": 239.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 241,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Italy",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 242,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Italy",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 245,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "JMD",
+      "country_name": "Jamaica",
+      "Symbol.1": " $",
+      "Amount": 399.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 246,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "JMD",
+      "country_name": "Jamaica",
+      "Symbol.1": " $",
+      "Amount": 4788.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 249,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "JPY",
+      "country_name": "Japan",
+      "Symbol.1": "¥",
+      "Amount": 1000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 250,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "JPY",
+      "country_name": "Japan",
+      "Symbol.1": "¥",
+      "Amount": 12000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 253,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "JOD",
+      "country_name": "Jordan",
+      "Symbol.1": "د.ا ",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 254,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "JOD",
+      "country_name": "Jordan",
+      "Symbol.1": "د.ا ",
+      "Amount": 47.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 257,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "KZT",
+      "country_name": "Kazakhstan",
+      "Symbol.1": "₸",
+      "Amount": 599.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 258,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "KZT",
+      "country_name": "Kazakhstan",
+      "Symbol.1": "₸",
+      "Amount": 7188.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 261,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "KES",
+      "country_name": "Kenya",
+      "Symbol.1": "Sh",
+      "Amount": 399.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 262,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "KES",
+      "country_name": "Kenya",
+      "Symbol.1": "Sh",
+      "Amount": 4788.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 265,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "KRW",
+      "country_name": "Korea South",
+      "Symbol.1": "₩",
+      "Amount": 7999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 266,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "KRW",
+      "country_name": "Korea South",
+      "Symbol.1": "₩",
+      "Amount": 95988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 269,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "KWD",
+      "country_name": "Kuwait",
+      "Symbol.1": " د.ك ",
+      "Amount": 2.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 270,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "KWD",
+      "country_name": "Kuwait",
+      "Symbol.1": " د.ك ",
+      "Amount": 32.99,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 273,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Latvia",
+      "Symbol.1": "€",
+      "Amount": 2.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 274,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Latvia",
+      "Symbol.1": "€",
+      "Amount": 35.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 277,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "LBP",
+      "country_name": "Lebanon",
+      "Symbol.1": "ل.ل ",
+      "Amount": 99999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 278,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "LBP",
+      "country_name": "Lebanon",
+      "Symbol.1": "ل.ل ",
+      "Amount": 1199988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 281,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "LRD",
+      "country_name": "Liberia",
+      "Symbol.1": "$",
+      "Amount": 399.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 282,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "LRD",
+      "country_name": "Liberia",
+      "Symbol.1": "$",
+      "Amount": 4788.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 285,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "LYD",
+      "country_name": "Libya",
+      "Symbol.1": "ل.د",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 286,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "LYD",
+      "country_name": "Libya",
+      "Symbol.1": "ل.د",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 289,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Lithuania",
+      "Symbol.1": "€",
+      "Amount": 7.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 290,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Lithuania",
+      "Symbol.1": "€",
+      "Amount": 95.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 293,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Luxembourg",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 294,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Luxembourg",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 297,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MAD",
+      "country_name": "Macedonia",
+      "Symbol.1": "ден ",
+      "Amount": 199.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 298,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MAD",
+      "country_name": "Macedonia",
+      "Symbol.1": "ден ",
+      "Amount": 2388.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 301,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MWK",
+      "country_name": "Malawi",
+      "Symbol.1": "MK ",
+      "Amount": 3999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 302,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MWK",
+      "country_name": "Malawi",
+      "Symbol.1": "MK ",
+      "Amount": 47988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 305,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MYR",
+      "country_name": "Malaysia",
+      "Symbol.1": "RM",
+      "Amount": 19.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 306,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MYR",
+      "country_name": "Malaysia",
+      "Symbol.1": "RM",
+      "Amount": 240.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 309,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "XOF",
+      "country_name": "Mali",
+      "Symbol.1": "Fr",
+      "Amount": 999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 310,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "XOF",
+      "country_name": "Mali",
+      "Symbol.1": "Fr",
+      "Amount": 11988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 313,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Malta",
+      "Symbol.1": "€",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 314,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Malta",
+      "Symbol.1": "€",
+      "Amount": 47.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 317,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Rs",
+      "country_name": "Mauritius",
+      "Symbol.1": "Rs",
+      "Amount": 350.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 318,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Rs",
+      "country_name": "Mauritius",
+      "Symbol.1": "Rs",
+      "Amount": 4200.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 321,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MRU",
+      "country_name": "Mauritania",
+      "Symbol.1": "MRU",
+      "Amount": 250.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 322,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MRU",
+      "country_name": "Mauritania",
+      "Symbol.1": "MRU",
+      "Amount": 3000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 325,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MXN",
+      "country_name": "Mexico",
+      "Symbol.1": "$",
+      "Amount": 49.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 326,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MXN",
+      "country_name": "Mexico",
+      "Symbol.1": "$",
+      "Amount": 599.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 329,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MDL",
+      "country_name": "Moldova",
+      "Symbol.1": "L",
+      "Amount": 49.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 330,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MDL",
+      "country_name": "Moldova",
+      "Symbol.1": "L",
+      "Amount": 600.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 333,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MNT",
+      "country_name": "Mongolia",
+      "Symbol.1": " ₮ ",
+      "Amount": 9999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 334,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MNT",
+      "country_name": "Mongolia",
+      "Symbol.1": " ₮ ",
+      "Amount": 119988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 337,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Montenegro",
+      "Symbol.1": "EUR",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 338,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Montenegro",
+      "Symbol.1": "EUR",
+      "Amount": 47.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 341,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MAD",
+      "country_name": "Morocco",
+      "Symbol.1": " د.م. ",
+      "Amount": 29.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 342,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MAD",
+      "country_name": "Morocco",
+      "Symbol.1": " د.م. ",
+      "Amount": 360.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 345,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MZN",
+      "country_name": "Mozambique",
+      "Symbol.1": "MZN",
+      "Amount": 200.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 346,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MZN",
+      "country_name": "Mozambique",
+      "Symbol.1": "MZN",
+      "Amount": 2400.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 349,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "MMK",
+      "country_name": "Myanmar",
+      "Symbol.1": "kyat",
+      "Amount": 3000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 350,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "MMK",
+      "country_name": "Myanmar",
+      "Symbol.1": "kyat",
+      "Amount": 36000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 353,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "NAD",
+      "country_name": "Namibia",
+      "Symbol.1": "$",
+      "Amount": 49.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 354,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "NAD",
+      "country_name": "Namibia",
+      "Symbol.1": "$",
+      "Amount": 599.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 357,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "NPR",
+      "country_name": "Nepal",
+      "Symbol.1": "Rupees",
+      "Amount": 200.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 358,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "NPR",
+      "country_name": "Nepal",
+      "Symbol.1": "Rupees",
+      "Amount": 2400.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 361,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Netherlands",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 362,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Netherlands",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 365,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "NZD",
+      "country_name": "New Zealand",
+      "Symbol.1": "$",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 366,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "NZD",
+      "country_name": "New Zealand",
+      "Symbol.1": "$",
+      "Amount": 109.99,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 369,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "XOF",
+      "country_name": "Niger",
+      "Symbol.1": "Fr",
+      "Amount": 999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 370,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "XOF",
+      "country_name": "Niger",
+      "Symbol.1": "Fr",
+      "Amount": 11988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 373,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "NGN",
+      "country_name": "Nigeria",
+      "Symbol.1": "₦ ",
+      "Amount": 9000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 374,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "NGN",
+      "country_name": "Nigeria",
+      "Symbol.1": "₦ ",
+      "Amount": 108000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 377,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Denar",
+      "country_name": "North Macedonia",
+      "Symbol.1": "Denar",
+      "Amount": 250.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 378,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Denar",
+      "country_name": "North Macedonia",
+      "Symbol.1": "Denar",
+      "Amount": 3000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 381,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "NOK",
+      "country_name": "Norway",
+      "Symbol.1": "NOK",
+      "Amount": 200.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 382,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "NOK",
+      "country_name": "Norway",
+      "Symbol.1": "NOK",
+      "Amount": 2400.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 385,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "OMR",
+      "country_name": "Oman",
+      "Symbol.1": " ر.ع. ",
+      "Amount": 1.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 386,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "OMR",
+      "country_name": "Oman",
+      "Symbol.1": " ر.ع. ",
+      "Amount": 23.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 389,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "PKR",
+      "country_name": "Pakistan",
+      "Symbol.1": "₨",
+      "Amount": 499.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 390,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "PKR",
+      "country_name": "Pakistan",
+      "Symbol.1": "₨",
+      "Amount": 5988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 393,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "USD",
+      "country_name": "Panama",
+      "Symbol.1": " $ ",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 394,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "USD",
+      "country_name": "Panama",
+      "Symbol.1": " $ ",
+      "Amount": 47.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 397,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "PEN",
+      "country_name": "Peru",
+      "Symbol.1": "PEN",
+      "Amount": 12.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 398,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "PEN",
+      "country_name": "Peru",
+      "Symbol.1": "PEN",
+      "Amount": 144.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 401,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "PHP",
+      "country_name": "Philippines",
+      "Symbol.1": "₱",
+      "Amount": 99.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 402,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "PHP",
+      "country_name": "Philippines",
+      "Symbol.1": "₱",
+      "Amount": 1188.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 405,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "PLN",
+      "country_name": "Poland",
+      "Symbol.1": "zł ",
+      "Amount": 4.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 406,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "PLN",
+      "country_name": "Poland",
+      "Symbol.1": "zł ",
+      "Amount": 59.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 409,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Portugal",
+      "Symbol.1": "€ ",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 410,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Portugal",
+      "Symbol.1": "€ ",
+      "Amount": 32.99,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 413,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "USD",
+      "country_name": "Puerto Rico",
+      "Symbol.1": "USD",
+      "Amount": 3.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 414,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "USD",
+      "country_name": "Puerto Rico",
+      "Symbol.1": "USD",
+      "Amount": 47.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 417,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "QAR",
+      "country_name": "Qatar",
+      "Symbol.1": "ر.ق ",
+      "Amount": 19.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 418,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "QAR",
+      "country_name": "Qatar",
+      "Symbol.1": "ر.ق ",
+      "Amount": 239.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 421,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "RON",
+      "country_name": "Romania",
+      "Symbol.1": "lei ",
+      "Amount": 12.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 422,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "RON",
+      "country_name": "Romania",
+      "Symbol.1": "lei ",
+      "Amount": 155.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 425,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "RUB",
+      "country_name": "Russia",
+      "Symbol.1": "₽",
+      "Amount": 199.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 426,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "RUB",
+      "country_name": "Russia",
+      "Symbol.1": "₽",
+      "Amount": 2388.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 429,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "RWF",
+      "country_name": "Rwanda",
+      "Symbol.1": "Fr",
+      "Amount": 1999.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 430,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "RWF",
+      "country_name": "Rwanda",
+      "Symbol.1": "Fr",
+      "Amount": 23988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 433,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "SAR",
+      "country_name": "Saudi Arabia",
+      "Symbol.1": "ر.س ",
+      "Amount": 15.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 434,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "SAR",
+      "country_name": "Saudi Arabia",
+      "Symbol.1": "ر.س ",
+      "Amount": 191.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 437,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CFA",
+      "country_name": "Senegal",
+      "Symbol.1": "CFA",
+      "Amount": 3000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 438,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CFA",
+      "country_name": "Senegal",
+      "Symbol.1": "CFA",
+      "Amount": 36000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 441,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "RSD",
+      "country_name": "Serbia",
+      "Symbol.1": "дин. Or din. ",
+      "Amount": 499.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 442,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "RSD",
+      "country_name": "Serbia",
+      "Symbol.1": "дин. Or din. ",
+      "Amount": 5988.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 445,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "SGD",
+      "country_name": "Singapore",
+      "Symbol.1": "S$ or $",
+      "Amount": 5.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 446,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "SGD",
+      "country_name": "Singapore",
+      "Symbol.1": "S$ or $",
+      "Amount": 72.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 449,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "SKK",
+      "country_name": "Slovakia",
+      "Symbol.1": "€",
+      "Amount": 4.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 450,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "SKK",
+      "country_name": "Slovakia",
+      "Symbol.1": "€",
+      "Amount": 59.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 453,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Slovenia",
+      "Symbol.1": "€",
+      "Amount": 4.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 454,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Slovenia",
+      "Symbol.1": "€",
+      "Amount": 59.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 457,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Shilling",
+      "country_name": "Somalia",
+      "Symbol.1": "SOS",
+      "Amount": 15000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 458,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Shilling",
+      "country_name": "Somalia",
+      "Symbol.1": "SOS",
+      "Amount": 180000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 461,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "ZAR",
+      "country_name": "South Africa",
+      "Symbol.1": " R",
+      "Amount": 59.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 462,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "ZAR",
+      "country_name": "South Africa",
+      "Symbol.1": " R",
+      "Amount": 719.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 465,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "WON",
+      "country_name": "South Korea",
+      "Symbol.1": "KRW",
+      "Amount": 8000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 466,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "WON",
+      "country_name": "South Korea",
+      "Symbol.1": "KRW",
+      "Amount": 96000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 469,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "SSP",
+      "country_name": "South Sudan",
+      "Symbol.1": "SSP",
+      "Amount": 150.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 470,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "SSP",
+      "country_name": "South Sudan",
+      "Symbol.1": "SSP",
+      "Amount": 1800.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 473,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "LKR",
+      "country_name": "Sri Lanka",
+      "Symbol.1": "Rs or රු ",
+      "Amount": 599.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 474,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "LKR",
+      "country_name": "Sri Lanka",
+      "Symbol.1": "Rs or රු ",
+      "Amount": 7188.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 477,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Spain",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 478,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Spain",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 481,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "SDG",
+      "country_name": "Sudan",
+      "Symbol.1": "Pounds",
+      "Amount": 250.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 482,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "SDG",
+      "country_name": "Sudan",
+      "Symbol.1": "Pounds",
+      "Amount": 3000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 485,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "EUR",
+      "country_name": "Sweden",
+      "Symbol.1": "EUR",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 486,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "EUR",
+      "country_name": "Sweden",
+      "Symbol.1": "EUR",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 489,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CHF",
+      "country_name": "Switzerland",
+      "Symbol.1": "Fr",
+      "Amount": 7.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 490,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CHF",
+      "country_name": "Switzerland",
+      "Symbol.1": "Fr",
+      "Amount": 95.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 493,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "SYP",
+      "country_name": "Syria",
+      "Symbol.1": "SYP",
+      "Amount": 1400.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 494,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "SYP",
+      "country_name": "Syria",
+      "Symbol.1": "SYP",
+      "Amount": 16800.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 497,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "NTD",
+      "country_name": "Taiwan",
+      "Symbol.1": "NTD",
+      "Amount": 150.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 498,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "NTD",
+      "country_name": "Taiwan",
+      "Symbol.1": "NTD",
+      "Amount": 1800.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 501,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "TJS",
+      "country_name": "Tajikistan",
+      "Symbol.1": "TJS",
+      "Amount": 6.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 502,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "TJS",
+      "country_name": "Tajikistan",
+      "Symbol.1": "TJS",
+      "Amount": 72.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 505,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "TZS",
+      "country_name": "Tanzania",
+      "Symbol.1": "TZS",
+      "Amount": 25000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 506,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "TZS",
+      "country_name": "Tanzania",
+      "Symbol.1": "TZS",
+      "Amount": 300000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 509,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "THB",
+      "country_name": "Thailand",
+      "Symbol.1": "฿",
+      "Amount": 79.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 510,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "THB",
+      "country_name": "Thailand",
+      "Symbol.1": "฿",
+      "Amount": 959.8799999999999,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 513,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "TRY",
+      "country_name": "Turkey",
+      "Symbol.1": "₺",
+      "Amount": 79.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 514,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "TRY",
+      "country_name": "Turkey",
+      "Symbol.1": "₺",
+      "Amount": 959.8799999999999,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 517,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "CFA",
+      "country_name": "Togo",
+      "Symbol.1": "CFA",
+      "Amount": 1500.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 518,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "CFA",
+      "country_name": "Togo",
+      "Symbol.1": "CFA",
+      "Amount": 18000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 521,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "Dinars",
+      "country_name": "Tunisia",
+      "Symbol.1": "DT",
+      "Amount": 12.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 522,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "Dinars",
+      "country_name": "Tunisia",
+      "Symbol.1": "DT",
+      "Amount": 144.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 525,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "TMT",
+      "country_name": "Turkmenistan",
+      "Symbol.1": "Manat",
+      "Amount": 15.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 526,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "TMT",
+      "country_name": "Turkmenistan",
+      "Symbol.1": "Manat",
+      "Amount": 180.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 529,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "UAH",
+      "country_name": "Ukraine",
+      "Symbol.1": "UAH",
+      "Amount": 110.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 530,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "UAH",
+      "country_name": "Ukraine",
+      "Symbol.1": "UAH",
+      "Amount": 1320.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 533,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "AED",
+      "country_name": "United Arab Emirates",
+      "Symbol.1": "AED",
+      "Amount": 60.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 534,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "AED",
+      "country_name": "United Arab Emirates",
+      "Symbol.1": "AED",
+      "Amount": 720.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 537,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "GBP",
+      "country_name": "United Kingdom",
+      "Symbol.1": " £",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 539,
+      "Product": "Tax GO/Retail Xpress - Monthly Subscription",
+      "Symbol": "GBP",
+      "country_name": "United Kingdom",
+      "Symbol.1": " £",
+      "Amount": 119.88,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 542,
+      "Product": "Tax GO/Retail Xpress - Monthly Subscription",
+      "Symbol": "USD",
+      "country_name": "United States",
+      "Symbol.1": "$",
+      "Amount": 9.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 543,
+      "Product": "Tax GO/Retail Xpress - Annual Subscription",
+      "Symbol": "USD",
+      "country_name": "United States",
+      "Symbol.1": "$",
+      "Amount": 119.88,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 546,
+      "Product": "Tax GO/Retail Xpress - Monthly Subscription",
+      "Symbol": "UZS",
+      "country_name": "Uzbekistan",
+      "Symbol.1": "UZS",
+      "Amount": 360000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 547,
+      "Product": "Tax GO/Retail Xpress - Annual Subscription",
+      "Symbol": "UZS",
+      "country_name": "Uzbekistan",
+      "Symbol.1": "UZS",
+      "Amount": 25000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 550,
+      "Product": "Tax GO/Retail Xpress - Monthly Subscription",
+      "Symbol": "VES",
+      "country_name": "Venezuela",
+      "Symbol.1": "VES",
+      "Amount": 3600.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 551,
+      "Product": "Tax GO/Retail Xpress - Annual Subscription",
+      "Symbol": "VES",
+      "country_name": "Venezuela",
+      "Symbol.1": "VES",
+      "Amount": 250.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 554,
+      "Product": "Tax GO/Retail Xpress - Monthly Subscription",
+      "Symbol": "VND",
+      "country_name": "Vietnam",
+      "Symbol.1": "VND",
+      "Amount": 300000.0,
+      "Annual/ Monthly": 12
+    },
+    {
+      "id": 555,
+      "Product": "Tax GO/Retail Xpress - Annual Subscription",
+      "Symbol": "VND",
+      "country_name": "Vietnam",
+      "Symbol.1": "VND",
+      "Amount": 20000.0,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 557,
+      "Product": "Tax GO - Monthly Subscription",
+      "Symbol": "ZMW",
+      "country_name": "Zambia",
+      "Symbol.1": " ZK",
+      "Amount": 49.99,
+      "Annual/ Monthly": 1
+    },
+    {
+      "id": 558,
+      "Product": "Tax GO - Annual Subscription",
+      "Symbol": "ZMW",
+      "country_name": "Zambia",
+      "Symbol.1": " ZK",
+      "Amount": 599.88,
+      "Annual/ Monthly": 12
+    }
+  ]

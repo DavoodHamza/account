@@ -1,0 +1,179 @@
+@use "../../config/variables.scss" as vars;
+.Consulting-componentBg {
+  background: linear-gradient(
+      72.37deg,
+      #dbf6ff 10.97%,
+      rgba(223, 247, 255, 0) 77.62%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  padding-top: 123px;
+}
+.Consulting-Header1 {
+  font-family: vars.$Poppins-ExtraBold;
+  font-size: 34px;
+  color: #34b628;
+  padding-bottom: 15px;
+  @media (max-width: 992px) {
+    font-size: 30px !important;
+  }
+  @media (max-width: 768px) {
+    font-size: 25px !important;
+  }
+  @media (max-width: 576px) {
+    font-size: 19px !important;
+    padding-bottom: 10px;
+
+  }
+}
+.Consulting-Header2 {
+  font-size: 32px;
+}
+.Consulting-miniText {
+  font-family: vars.$Poppins-Regular;
+  font-size: 15px;
+  color: vars.$fullblack;
+  padding-bottom: 10px;
+  display: flex;
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
+}
+.Consulting-mainTextDiv {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 992px) {
+    padding: 30px;
+  }
+}
+.Consulting-ladyImgDiv {
+  display: flex;
+  justify-content: center;
+}
+.Consulting-ladyImg {
+  height: 563px;
+  @media (max-width: 992px) {
+    height: 400px;
+  }
+  @media (max-width: 576px) {
+    height: 380px;
+  }
+}
+.CardsPage-coveringDiv {
+  padding: 120px 200px;
+  @media (max-width: 1400px) {
+    padding: 100px 150px;
+  }
+  @media (max-width: 1200px) {
+    padding: 80px 100px;
+  }
+  @media (max-width: 576px) {
+    padding: 60px 50px;
+  }
+  @media (max-width: 400px) {
+    padding: 40px 30px;
+  }
+}
+.CardsPage-mainHeader {
+  padding-bottom: 40px;
+  text-align: center;
+  color: vars.$fullblack;
+  font-family: vars.$Poppins-Bold;
+  font-size: 30px;
+  @media (max-width: 992px) {
+    font-size: 26px;
+  }
+  @media (max-width: 768px) {
+    font-size: 24px;
+    padding-bottom: 35px;
+  }
+  @media (max-width: 576px) {
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+}
+.CardsPage-cardDiv {
+  border-radius: 8px;
+  background-color: #f4f6f8;
+}
+.Cardspage-cradTextDiv {
+  padding: 20px;
+}
+.CardsPage-cardTaitil {
+  font-family: vars.$Poppins-Bold;
+  color: vars.$fullblack;
+  font-size: 18px;
+}
+.CardsPage-cardtext {
+  font-family: vars.$Poppins-Regular;
+  font-size: 16px;
+  color: vars.$fullblack;
+}
+.CardsPage-cardtextOnly {
+  font-size: 18px;
+  line-height: 31px;
+}
+.ConsultingForm-taitil {
+  font-family: vars.$Poppins-ExtraBold;
+  text-align: center;
+  font-size: 36px;
+  color: #34b628;
+  padding-bottom: 10px;
+  @media (max-width: 992px) {
+    font-size: 32px;
+  }
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+  @media (max-width: 576px) {
+    font-size: 25px;
+  }
+}
+.ConsultingForm-text {
+  font-family: vars.$Poppins-Medium;
+  text-align: center;
+  font-size: 20px;
+  color: #878f86;
+  padding-bottom: 40px;
+  @media (max-width: 992px) {
+    font-size: 18px;
+  }
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media (max-width: 576px) {
+    font-size: 14px;
+  }
+}
+.ConsultingForm-bg {
+  background-color: #f5f5f5;
+}
+.ConsultingForm-label {
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+  color: vars.$fullblack;
+}
+.ConsultingForm-input {
+  width: 100% !important;
+  height: 40px;
+  border-radius: 8px;
+  border: solid 1px #c9c9c9;
+}
+.ConsultingForm-textArea {
+  width: 100% !important;
+  height: 128px !important;
+  border-radius: 8px;
+  border: solid 1px #c9c9c9;
+  margin-bottom: 20px;
+}
+.ConsultingForm-btn {
+  width: 100% !important;
+  font-family: vars.$Poppins-Medium;
+  font-size: 18px;
+  color: #878f86;
+  border: solid 1px #878f86;
+  border-radius: 100px;
+  height: 56px;
+  background-color: #f5f5f5;
+}

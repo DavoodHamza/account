@@ -1,0 +1,152 @@
+@use "../../config/variables.scss" as vars;
+
+.Report-Icon {
+  font-size: 40px;
+  color: vars.$primary;
+}
+.Report-cardSubheader {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.ReportHeadBox {
+  display: flex;
+  flex-direction: column;
+}
+.Report-cardName {
+  font-size: 14px;
+}
+.VatReturn-HeaderButton-dwnld,
+.VatRetun-HeaderButton-print,
+.Report-HeaderButton-share {
+  color: vars.$primary;
+}
+.Report-thead {
+  height: 40px;
+  background-color: vars.$primary2;
+}
+.Report-table-td-total {
+  font-family: vars.$Poppins-Bold;
+}
+.Report-table-th {
+  padding: 5px;
+}
+.Report-td-link {
+  text-decoration: underline #0051ff;
+  color: #0051ff !important;
+  cursor: pointer;
+}
+.Report-tableTitle {
+  height: 30px;
+  display: flex;
+  align-items: end;
+}
+.Report-pageDetails,
+.Report-cardIcon-view-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ProfitnLoss-collapse-label {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  justify-content: space-between;
+}
+.ProfitnLoss-border-Col {
+  margin-bottom: 8px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.ProfitnLoss-space-alignment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  margin: 10px 0 10px 0;
+  justify-content: space-between;
+}
+
+//====================== balance sheet=====================//
+.Balancesheet-box {
+  height: 100vh;
+  width: 100%;
+  $backround: #fafafa;
+  padding: 30px;
+}
+.Balancesheet-box1 {
+  padding: 25px;
+  background-color: white;
+}
+
+.Balancesheet-view {
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+.Report-table-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+//---------------------------------------trial balance--------------------------------//
+.trialbalace-box {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+.trialbalace-box1 {
+  padding: 15px;
+  background-color: white;
+}
+//========================================================stock summary========================//
+.StocksummaryTable-box {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+.StocksummaryTable-box1 {
+  padding: 15px;
+  background-color: white;
+}
+
+.StocksummaryTable-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.StocksummaryTable-txt1 {
+  font-size: 25px;
+}
+
+.StocksummaryTable-txt1 {
+  font-size: 20px;
+}
+
+.ReportStockbase-main {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+.ReportStockbase-main1 {
+  padding: 15px;
+  background-color: white;
+}
+
+.LoaderBox {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.report-text {
+  font-size: 17px;
+  font-family: vars.$Poppins-Bold;
+}

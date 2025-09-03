@@ -1,0 +1,193 @@
+@use "../../config/variables.scss" as vars;
+
+.subscription-mainContainer {
+  // height: 100vh;
+  .tab-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5px;
+    background-color: #dadadb;
+    border-radius: 9px;
+  }
+  .indicator {
+    content: "";
+
+    background: #ffffff;
+    position: absolute;
+    z-index: 9;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    transition: all 0.2s ease-out;
+  }
+  .tab {
+    width: 30%;
+    height: 28px;
+    position: absolute;
+    z-index: 99;
+    outline: none;
+    opacity: 0;
+  }
+  .tab_label {
+    width: 130px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .tabText {
+    font-family: vars.$Poppins-SemiBold;
+    font-size: 12px;
+  }
+  .tab--1:checked ~ .indicator {
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    left: 2px;
+    transition: all 0.2s ease-out;
+  }
+  .tab--2:checked ~ .indicator {
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    left: 114px;
+    transition: all 0.2s ease-out;
+  }
+  .tab--3:checked ~ .indicator {
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    right: 2px;
+    transition: all 0.2s ease-in;
+  }
+}
+.subscriptionScreen-totalAmountContainer {
+  background-color: #434d50;
+  margin: 10px;
+  border-radius: 10px;
+  .totalAmountContainer {
+    padding: 10px;
+    font-size: 28px;
+    font-family: vars.$Poppins-Medium;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .totalAmountText {
+    font-size: 14px;
+    color: #96a9af;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-family: vars.$Poppins-Regular;
+  }
+}
+.subscriptionScreen-companyContainer {
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  .descriptionText{
+    font-family: vars.$Poppins-Regular;
+    font-size: 13px;
+  }
+  .textCompanyText {
+    font-family: vars.$Poppins-Regular;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .totalAmountContainer {
+    padding: 10px;
+    font-size: 26px;
+    font-family: vars.$Poppins-Medium;
+    color: #748287;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+  }
+  .subscription-countBox {
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #96a9af;
+    border: 1px solid rgb(246, 243, 243);
+    background-color: rgb(246, 243, 243);
+  }
+  .count-container {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    font-family: vars.$Poppins-Medium;
+  }
+  .subscription-companyCount {
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+  }
+  .subscription-btn-text {
+    font-family: vars.$Poppins-Medium;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
+.subscription-plancontainer {
+  background-color: #ff5353;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  span {
+    font-size: 28px;
+    font-family: vars.$Poppins-Medium;
+  }
+  p {
+    font-size: 16px;
+    font-family: vars.$Poppins-Regular;
+  }
+}
+.subscription-headtext {
+  font-family: vars.$Poppins-Medium;
+  font-size: 22px;
+}
+
+.subscription-activePlancontainer {
+  background-color: #e1f2ea;
+  color: #34b628;
+  padding: 22px;
+  border-radius: 10px;
+  span {
+    font-size: 28px;
+    font-family: vars.$Poppins-Medium;
+  }
+  p {
+    font-size: 16px;
+    font-family: vars.$Poppins-Regular;
+  }
+}
+.subscription-planNameContainer {
+  border-radius: 10px;
+  background-color: #faf5f5;
+  padding: 20px;
+  margin-top: 10px;
+  .subscription-planTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: vars.$Poppins-Regular;
+    font-size: 14px;
+  }
+  .subscription-planName {
+    padding-top: 4px;
+    font-family: vars.$Poppins-Medium;
+    font-size: 17px;
+  }
+}

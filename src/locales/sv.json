@@ -1,0 +1,38 @@
+{
+    "dashboard": {
+        "title": {
+            "sale_progress": "FÖRSÄLJNINGSUTVECKLING",
+            "total_customer": "TOTALA KUNDER",
+            "total_profit": "TOTAL VINST",
+            "sale_preview": "Förhandsvisning av försäljning",
+            "purchase_preview": "Förhandsgranskning av köp",
+            "latest_order": "Senaste beställningarna"
+        }
+    },
+    "sidebar": {
+        "title": {
+            "dashboard": "instrumentbräda",
+            "productService": "Produkt/tjänst",
+            "stock": "Stock",
+            "nonstock": "Icke lager",
+            "service": "Service",
+            "sale": "Försäljning",
+            "invoice": "Faktura",
+            "cnote": "Krediträkningar",
+            "purchase": "Inköp",
+            "dnote": "Debetsedlar",
+            "contact": "Kontakter",
+            "customer": "Kunder",
+            "supplier": "Leverantörer",
+            "document": "Dokument",
+            "journal": "Tidskrifter",
+            "cash":"Kontanter",
+            "bank":"Bank",
+            "report":"Rapporter",
+            "ledger"  : "Ledbok",
+            "myledger": "Mina redovisningar",
+            "defaultledger": "Standardbokföring",
+            "merchant": "Handlare"
+        }
+    }
+}

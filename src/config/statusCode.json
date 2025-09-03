@@ -1,0 +1,28 @@
+[
+    {
+        "value":0,
+    "statusText" : "Unpaid",
+      "statusBgColor" : "#B71C1C"
+    },
+    {"value":2,
+        "statusText" : "Paid",
+        "statusBgColor" : "#1B5E20"
+    },
+    {"value":1,
+        "statusText" : "Part Paid",
+        "statusBgColor" : "#E65100" 
+    },
+    {   "value":4,
+        "statusText" : "Delivered",
+        "statusBgColor" : "#28a745"  
+    },
+    {   "value":5,
+        "statusText" : "Pending",
+        "statusBgColor" : "orange"  
+    },
+    {    "value":10,
+        "statusText" : "Cancelled",
+        "statusBgColor" : "#D34100"  
+    }
+
+]

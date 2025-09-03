@@ -1,0 +1,57 @@
+@use "../../config/variables.scss" as vars;
+.website-SignupBox1 {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    170deg,
+    vars.$primary2,
+    vars.$primary2,
+    #f0fef7
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
+}
+.website-SignupBox2 {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 25px;
+  }
+}
+.website-Signuptxt1 {
+  font-family: vars.$Poppins-Medium;
+  text-align: center;
+  font-size: 30px;
+}
+.website-Signuptxt2 {
+  font-family: vars.$Poppins-Medium;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.website-Signuptxt3 {
+  width: 100%;
+  text-align: right;
+  color: vars.$green;
+  margin-top: 5px;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.website-Signuptxt4 {
+  text-align: center;
+  font-family: vars.$Poppins-Medium;
+  font-size: 14px;
+}
+.website-SignupBack {
+  margin: 20px;
+  font-family: vars.$Poppins-Medium;
+  display: flex;
+  align-items: center;
+  color: vars.$green;
+  font-size: 30px;
+}
